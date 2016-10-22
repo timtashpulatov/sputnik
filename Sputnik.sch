@@ -188,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4725 3100 4725
 $Sheet
-S 12075 4350 1950 1700
+S 11300 4250 1950 1700
 U 57F77ED3
 F0 "Ethernet" 60
 F1 "Ethernet.sch" 60
