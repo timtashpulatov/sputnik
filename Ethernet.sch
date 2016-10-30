@@ -446,10 +446,10 @@ Wire Wire Line
 	6100 3925 6600 3925
 Wire Wire Line
 	6100 4125 6600 4125
-Text Label 4450 2875 3    50   ~ 0
+Text Label 2500 3050 2    50   ~ 0
 SD14
 Wire Wire Line
-	4450 3375 4450 2875
+	2000 3050 2500 3050
 Text Label 4650 2875 3    50   ~ 0
 SD15
 Wire Wire Line
@@ -556,10 +556,6 @@ Wire Wire Line
 	4750 5575 4750 6075
 Text Label 4750 6075 1    50   ~ 0
 PWRST#
-Wire Wire Line
-	5350 5575 5350 6075
-Text Label 5350 6075 1    50   ~ 0
-SD
 $Comp
 L GNDA #PWR0105
 U 1 1 580C0A73
@@ -881,4 +877,144 @@ F 3 "" H 9325 5300 60  0000 C CNN
 	1    9325 5300
 	-1   0    0    1   
 $EndComp
+NoConn ~ 8000 4325
+Text HLabel 1775 1100 0    60   BiDi ~ 0
+ETH_SD[0:15]
+Wire Bus Line
+	1775 1100 1900 1100
+Wire Bus Line
+	1900 1100 1900 3050
+Text Label 2500 2950 2    50   ~ 0
+SD13
+Wire Wire Line
+	2000 2850 2500 2850
+Wire Wire Line
+	2000 2650 2500 2650
+Wire Wire Line
+	2000 2550 2500 2550
+Text Label 2500 2850 2    50   ~ 0
+SD12
+Text Label 2500 2750 2    50   ~ 0
+SD11
+Text Label 2500 2650 2    50   ~ 0
+SD10
+Text Label 2500 2550 2    50   ~ 0
+SD9
+Wire Wire Line
+	2000 2750 2500 2750
+Wire Wire Line
+	2000 2950 2500 2950
+Entry Wire Line
+	1900 1550 2000 1650
+Entry Wire Line
+	1900 1650 2000 1750
+Entry Wire Line
+	1900 1750 2000 1850
+Entry Wire Line
+	1900 1850 2000 1950
+Entry Wire Line
+	1900 1950 2000 2050
+Entry Wire Line
+	1900 2050 2000 2150
+Entry Wire Line
+	1900 2150 2000 2250
+Entry Wire Line
+	1900 2250 2000 2350
+Entry Wire Line
+	1900 2350 2000 2450
+Entry Wire Line
+	1900 2450 2000 2550
+Entry Wire Line
+	1900 2550 2000 2650
+Entry Wire Line
+	1900 2650 2000 2750
+Entry Wire Line
+	1900 2750 2000 2850
+Entry Wire Line
+	1900 2850 2000 2950
+Entry Wire Line
+	1900 2950 2000 3050
+Entry Wire Line
+	1900 3050 2000 3150
+Text Label 2500 1650 2    50   ~ 0
+SD0
+Wire Wire Line
+	2000 1650 2500 1650
+Text Label 2500 1750 2    50   ~ 0
+SD1
+Wire Wire Line
+	2000 1750 2500 1750
+Text Label 2500 1850 2    50   ~ 0
+SD2
+Wire Wire Line
+	2000 1850 2500 1850
+Text Label 2500 1950 2    50   ~ 0
+SD3
+Wire Wire Line
+	2000 1950 2500 1950
+Text Label 2500 2050 2    50   ~ 0
+SD4
+Wire Wire Line
+	2000 2050 2500 2050
+Text Label 2500 2350 2    50   ~ 0
+SD7
+Wire Wire Line
+	2000 2250 2500 2250
+Text Label 2500 2250 2    50   ~ 0
+SD6
+Text Label 2500 2150 2    50   ~ 0
+SD5
+Wire Wire Line
+	2000 2150 2500 2150
+Wire Wire Line
+	2000 2350 2500 2350
+Wire Wire Line
+	2000 2450 2500 2450
+Text Label 2500 2450 2    50   ~ 0
+SD8
+Text Label 2500 3150 2    50   ~ 0
+SD15
+Wire Wire Line
+	2000 3150 2500 3150
+Text Label 4450 2875 3    50   ~ 0
+SD14
+Wire Wire Line
+	4450 3375 4450 2875
+Wire Wire Line
+	1775 4000 2275 4000
+Text Label 2275 4000 2    50   ~ 0
+CMD
+Wire Wire Line
+	1775 4200 2275 4200
+Text Label 2275 4200 2    50   ~ 0
+INT
+Wire Wire Line
+	1775 4300 2275 4300
+Text Label 2275 4300 2    50   ~ 0
+IOR#
+Wire Wire Line
+	1775 4400 2275 4400
+Text Label 2275 4400 2    50   ~ 0
+IOW#
+Text Label 2275 4500 2    50   ~ 0
+CS#
+Text Label 2275 4600 2    50   ~ 0
+PWRST#
+Wire Wire Line
+	1775 4500 2275 4500
+Wire Wire Line
+	1775 4600 2275 4600
+Text HLabel 1775 4000 0    60   Input ~ 0
+CMD
+Text HLabel 1775 4200 0    60   Output ~ 0
+INT
+Text HLabel 1775 4300 0    60   Input ~ 0
+IOR#
+Text HLabel 1775 4400 0    60   Input ~ 0
+IOW#
+Text HLabel 1775 4500 0    60   Input ~ 0
+CS#
+Text HLabel 1775 4600 0    60   Input ~ 0
+PWRST#
+NoConn ~ 5350 5575
 $EndSCHEMATC

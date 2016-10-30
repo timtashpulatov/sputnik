@@ -1,4 +1,4 @@
-update=Сб 22 окт 2016 21:21:56
+update=28/10/2016 08:56:08
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,6 +59,8 @@ LibName29=contrib
 LibName30=valves
 LibName31=lib/Stream
 LibName32=lib/ep4ce10f17
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -69,5 +71,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1

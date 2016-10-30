@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4+e1-6308~48~ubuntu16.04.1-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
     (links 512)
     (no_connects 318)
-    (area 119.924999 19.924999 250.075001 80.075001)
+    (area 112.10026 -20.199801 284.175003 93.66)
     (thickness 1.6)
-    (drawings 5)
+    (drawings 7)
     (tracks 792)
     (zones 0)
     (modules 70)
@@ -4757,6 +4757,8 @@
       (net 317 GNDA))
   )
 
+  (gr_line (start 247.015 82.55) (end 412.75 82.55) (layer Dwgs.User) (width 0.2))
+  (gr_line (start 122.555 81.28) (end 247.015 81.28) (layer Dwgs.User) (width 0.2))
   (gr_line (start 120 80) (end 120 20) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 250 80) (end 120 80) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 250 20) (end 250 80) (layer Edge.Cuts) (width 0.15))
