@@ -363,7 +363,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 5700 4950 5575
 Text Label 3400 3925 0    50   ~ 0
-SD13
+ETH_SD13
 Wire Wire Line
 	3900 4025 3400 4025
 Wire Wire Line
@@ -373,15 +373,15 @@ Wire Wire Line
 Wire Wire Line
 	3900 4525 3400 4525
 Text Label 3400 4025 0    50   ~ 0
-SD12
+ETH_SD12
 Text Label 3400 4125 0    50   ~ 0
-SD11
+ETH_SD11
 Text Label 3400 4225 0    50   ~ 0
-SD10
+ETH_SD10
 Text Label 3400 4325 0    50   ~ 0
-SD9
+ETH_SD9
 Text Label 3400 4525 0    50   ~ 0
-SD8
+ETH_SD8
 Wire Wire Line
 	6100 4225 6450 4225
 Wire Wire Line
@@ -435,43 +435,43 @@ Wire Wire Line
 	3900 3925 3400 3925
 Connection ~ 6150 4575
 Text Label 6600 4125 2    50   ~ 0
-SD7
+ETH_SD7
 Wire Wire Line
 	6100 4025 6600 4025
 Text Label 6600 4025 2    50   ~ 0
-SD6
+ETH_SD6
 Text Label 6600 3925 2    50   ~ 0
-SD5
+ETH_SD5
 Wire Wire Line
 	6100 3925 6600 3925
 Wire Wire Line
 	6100 4125 6600 4125
 Text Label 2500 3050 2    50   ~ 0
-SD14
+ETH_SD14
 Wire Wire Line
 	2000 3050 2500 3050
 Text Label 4650 2875 3    50   ~ 0
-SD15
+ETH_SD15
 Wire Wire Line
 	4650 3375 4650 2875
 Text Label 5050 2875 3    50   ~ 0
-SD0
+ETH_SD0
 Wire Wire Line
 	5050 3375 5050 2875
 Text Label 5150 2875 3    50   ~ 0
-SD1
+ETH_SD1
 Wire Wire Line
 	5150 3375 5150 2875
 Text Label 5250 2875 3    50   ~ 0
-SD2
+ETH_SD2
 Wire Wire Line
 	5250 3375 5250 2875
 Text Label 5450 2875 3    50   ~ 0
-SD3
+ETH_SD3
 Wire Wire Line
 	5450 3375 5450 2875
 Text Label 5550 2875 3    50   ~ 0
-SD4
+ETH_SD4
 Wire Wire Line
 	5550 3375 5550 2875
 Wire Wire Line
@@ -885,7 +885,7 @@ Wire Bus Line
 Wire Bus Line
 	1900 1100 1900 3050
 Text Label 2500 2950 2    50   ~ 0
-SD13
+ETH_SD13
 Wire Wire Line
 	2000 2850 2500 2850
 Wire Wire Line
@@ -893,13 +893,13 @@ Wire Wire Line
 Wire Wire Line
 	2000 2550 2500 2550
 Text Label 2500 2850 2    50   ~ 0
-SD12
+ETH_SD12
 Text Label 2500 2750 2    50   ~ 0
-SD11
+ETH_SD11
 Text Label 2500 2650 2    50   ~ 0
-SD10
+ETH_SD10
 Text Label 2500 2550 2    50   ~ 0
-SD9
+ETH_SD9
 Wire Wire Line
 	2000 2750 2500 2750
 Wire Wire Line
@@ -937,33 +937,33 @@ Entry Wire Line
 Entry Wire Line
 	1900 3050 2000 3150
 Text Label 2500 1650 2    50   ~ 0
-SD0
+ETH_SD0
 Wire Wire Line
 	2000 1650 2500 1650
 Text Label 2500 1750 2    50   ~ 0
-SD1
+ETH_SD1
 Wire Wire Line
 	2000 1750 2500 1750
 Text Label 2500 1850 2    50   ~ 0
-SD2
+ETH_SD2
 Wire Wire Line
 	2000 1850 2500 1850
 Text Label 2500 1950 2    50   ~ 0
-SD3
+ETH_SD3
 Wire Wire Line
 	2000 1950 2500 1950
 Text Label 2500 2050 2    50   ~ 0
-SD4
+ETH_SD4
 Wire Wire Line
 	2000 2050 2500 2050
 Text Label 2500 2350 2    50   ~ 0
-SD7
+ETH_SD7
 Wire Wire Line
 	2000 2250 2500 2250
 Text Label 2500 2250 2    50   ~ 0
-SD6
+ETH_SD6
 Text Label 2500 2150 2    50   ~ 0
-SD5
+ETH_SD5
 Wire Wire Line
 	2000 2150 2500 2150
 Wire Wire Line
@@ -971,13 +971,13 @@ Wire Wire Line
 Wire Wire Line
 	2000 2450 2500 2450
 Text Label 2500 2450 2    50   ~ 0
-SD8
+ETH_SD8
 Text Label 2500 3150 2    50   ~ 0
-SD15
+ETH_SD15
 Wire Wire Line
 	2000 3150 2500 3150
 Text Label 4450 2875 3    50   ~ 0
-SD14
+ETH_SD14
 Wire Wire Line
 	4450 3375 4450 2875
 Wire Wire Line
@@ -1017,4 +1017,45 @@ CS#
 Text HLabel 1775 4600 0    60   Input ~ 0
 PWRST#
 NoConn ~ 5350 5575
+$Comp
+L GND #PWR0114
+U 1 1 58165CEB
+P 6650 3025
+F 0 "#PWR0114" H 6650 2775 50  0001 C CNN
+F 1 "GND" H 6650 2875 50  0001 C CNN
+F 2 "" H 6650 3025 50  0000 C CNN
+F 3 "" H 6650 3025 50  0000 C CNN
+	1    6650 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR0115
+U 1 1 58165E98
+P 7050 3025
+F 0 "#PWR0115" H 7050 2775 50  0001 C CNN
+F 1 "GNDA" H 7050 2875 50  0000 C CNN
+F 2 "" H 7050 3025 50  0000 C CNN
+F 3 "" H 7050 3025 50  0000 C CNN
+	1    7050 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R17
+U 1 1 58165F7B
+P 6850 2925
+F 0 "R17" V 6750 2925 50  0000 C CNN
+F 1 "000" V 6850 2925 50  0000 C CNN
+F 2 "" V 6780 2925 50  0000 C CNN
+F 3 "" H 6850 2925 50  0000 C CNN
+	1    6850 2925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 2925 6650 2925
+Wire Wire Line
+	6650 2925 6650 3025
+Wire Wire Line
+	7050 3025 7050 2925
+Wire Wire Line
+	7050 2925 7000 2925
 $EndSCHEMATC

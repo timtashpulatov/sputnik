@@ -744,19 +744,19 @@ Text Notes 1000 8150 0    60   ~ 0
 Bank 7 pins for x16\n\nD14 DQ5T\nD12 DQS0T/CQ1T,DPCLK6\nB13 DQ5T\nA12 DQ5T\nB12 DQ5T\nA11 DQ5T\nB11 DQ5T\nF9 DQS2T/CQ3T\nA10 DQ5T\nB10 DQ5T\nC9 DQ5T\nD9 DM5T/BWS#5T\nE9 DQS4T/CQ5T
 Text HLabel 2225 4975 0    60   Input ~ 0
 nSLAVEn_IN
-Text HLabel 14950 7800 2    60   Output ~ 0
+Text HLabel 15225 6150 2    60   Output ~ 0
 CMD
-Text HLabel 14950 7875 2    60   Input ~ 0
+Text HLabel 15225 6225 2    60   Input ~ 0
 INT
-Text HLabel 14950 7950 2    60   Output ~ 0
+Text HLabel 15225 6300 2    60   Output ~ 0
 IOR#
-Text HLabel 14950 8025 2    60   Output ~ 0
+Text HLabel 15225 6375 2    60   Output ~ 0
 IOW#
-Text HLabel 14950 8100 2    60   Output ~ 0
+Text HLabel 15225 6450 2    60   Output ~ 0
 CS#
-Text HLabel 14950 8175 2    60   Output ~ 0
+Text HLabel 15225 6525 2    60   Output ~ 0
 IORST#
-Text HLabel 14975 6675 2    60   BiDi ~ 0
+Text HLabel 15200 6725 2    60   BiDi ~ 0
 ETH_SD[0:15]
 Wire Wire Line
 	12125 4425 12075 4425
@@ -1147,27 +1147,127 @@ Connection ~ 15525 2325
 Connection ~ 12550 3025
 Connection ~ 12550 2725
 Wire Wire Line
-	14950 7800 14325 7800
+	15225 6150 14400 6150
 Wire Wire Line
-	14950 7875 14325 7875
+	15225 6225 14400 6225
 Wire Wire Line
-	14950 7950 14325 7950
+	15225 6300 14400 6300
 Wire Wire Line
-	14950 8025 14325 8025
+	15225 6375 14400 6375
 Wire Wire Line
-	14950 8100 14325 8100
+	15225 6450 14400 6450
 Wire Wire Line
-	14950 8175 14325 8175
-Text Label 14375 7800 0    50   ~ 0
+	15225 6525 14400 6525
+Text Label 14450 6150 0    50   ~ 0
 CMD
-Text Label 14375 7875 0    50   ~ 0
+Text Label 14450 6225 0    50   ~ 0
 INT
-Text Label 14375 7950 0    50   ~ 0
+Text Label 14450 6300 0    50   ~ 0
 IOR#
-Text Label 14375 8025 0    50   ~ 0
+Text Label 14450 6375 0    50   ~ 0
 IOW#
-Text Label 14375 8100 0    50   ~ 0
+Text Label 14450 6450 0    50   ~ 0
 CS#
-Text Label 14375 8175 0    50   ~ 0
+Text Label 14450 6525 0    50   ~ 0
 IORST#
+Wire Bus Line
+	15200 6725 15100 6725
+Wire Bus Line
+	15100 6725 15100 8425
+Wire Wire Line
+	15000 6825 14375 6825
+Entry Wire Line
+	15000 6825 15100 6925
+Entry Wire Line
+	15000 6925 15100 7025
+Entry Wire Line
+	15000 7025 15100 7125
+Entry Wire Line
+	15000 7125 15100 7225
+Entry Wire Line
+	15000 7225 15100 7325
+Entry Wire Line
+	15000 7325 15100 7425
+Entry Wire Line
+	15000 7425 15100 7525
+Entry Wire Line
+	15000 7525 15100 7625
+Entry Wire Line
+	15000 7625 15100 7725
+Entry Wire Line
+	15000 7725 15100 7825
+Entry Wire Line
+	15000 7825 15100 7925
+Entry Wire Line
+	15000 7925 15100 8025
+Entry Wire Line
+	15000 8025 15100 8125
+Entry Wire Line
+	15000 8125 15100 8225
+Entry Wire Line
+	15000 8225 15100 8325
+Entry Wire Line
+	15000 8325 15100 8425
+Wire Wire Line
+	15000 6925 14375 6925
+Wire Wire Line
+	15000 7025 14375 7025
+Wire Wire Line
+	15000 7125 14375 7125
+Wire Wire Line
+	15000 7225 14375 7225
+Wire Wire Line
+	15000 7325 14375 7325
+Wire Wire Line
+	15000 7425 14375 7425
+Wire Wire Line
+	15000 7525 14375 7525
+Wire Wire Line
+	15000 7625 14375 7625
+Wire Wire Line
+	15000 7725 14375 7725
+Wire Wire Line
+	15000 7825 14375 7825
+Wire Wire Line
+	15000 7925 14375 7925
+Wire Wire Line
+	15000 8025 14375 8025
+Wire Wire Line
+	15000 8125 14375 8125
+Wire Wire Line
+	15000 8225 14375 8225
+Wire Wire Line
+	15000 8325 14375 8325
+Text Label 14375 6825 0    50   ~ 0
+ETH_SD0
+Text Label 14375 6925 0    50   ~ 0
+ETH_SD1
+Text Label 14375 7025 0    50   ~ 0
+ETH_SD2
+Text Label 14375 7125 0    50   ~ 0
+ETH_SD3
+Text Label 14375 7225 0    50   ~ 0
+ETH_SD4
+Text Label 14375 7325 0    50   ~ 0
+ETH_SD5
+Text Label 14375 7425 0    50   ~ 0
+ETH_SD6
+Text Label 14375 7525 0    50   ~ 0
+ETH_SD7
+Text Label 14375 7625 0    50   ~ 0
+ETH_SD8
+Text Label 14375 7725 0    50   ~ 0
+ETH_SD9
+Text Label 14375 7825 0    50   ~ 0
+ETH_SD10
+Text Label 14375 7925 0    50   ~ 0
+ETH_SD11
+Text Label 14375 8025 0    50   ~ 0
+ETH_SD12
+Text Label 14375 8125 0    50   ~ 0
+ETH_SD13
+Text Label 14375 8225 0    50   ~ 0
+ETH_SD14
+Text Label 14375 8325 0    50   ~ 0
+ETH_SD15
 $EndSCHEMATC
