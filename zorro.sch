@@ -246,19 +246,19 @@ F 3 "" H 4325 2425 50  0000 C CNN
 $EndComp
 Text Label 13625 5450 0    50   ~ 0
 SD_5
-Text Label 13625 5525 0    50   ~ 0
-SD_6
 Text Label 13625 5600 0    50   ~ 0
+SD_6
+Text Label 13625 5750 0    50   ~ 0
 SD_7
-Text Label 13625 5975 0    50   ~ 0
+Text Label 13625 5525 0    50   ~ 0
 SD_4
-Text Label 13625 5900 0    50   ~ 0
+Text Label 13625 5675 0    50   ~ 0
 SD_3
 Text Label 13625 5825 0    50   ~ 0
 SD_2
-Text Label 13625 5750 0    50   ~ 0
+Text Label 13625 5900 0    50   ~ 0
 SD_1
-Text Label 13625 5675 0    50   ~ 0
+Text Label 13625 5975 0    50   ~ 0
 SD_0
 Text HLabel 14100 5250 2    50   BiDi ~ 0
 SD_[0..7]
@@ -700,19 +700,19 @@ F 3 "" H 10250 6025 60  0001 C CNN
 $EndComp
 Text Label 11925 5375 0    50   ~ 0
 SD5
-Text Label 11925 5450 0    50   ~ 0
-SD6
 Text Label 11925 5525 0    50   ~ 0
+SD6
+Text Label 11925 5675 0    50   ~ 0
 SD7
-Text Label 11925 5900 0    50   ~ 0
+Text Label 11925 5450 0    50   ~ 0
 SD4
-Text Label 11925 5825 0    50   ~ 0
+Text Label 11925 5600 0    50   ~ 0
 SD3
 Text Label 11925 5750 0    50   ~ 0
 SD2
-Text Label 11925 5675 0    50   ~ 0
+Text Label 11925 5825 0    50   ~ 0
 SD1
-Text Label 11925 5600 0    50   ~ 0
+Text Label 11925 5900 0    50   ~ 0
 SD0
 $Comp
 L SN74LVC8T245 U10
