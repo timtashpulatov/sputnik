@@ -1,4 +1,4 @@
-update=30/10/2016 20:12:23
+update=Чт 10 ноя 2016 23:53:39
 version=1
 last_client=kicad
 [cvpcb]
@@ -40,8 +40,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=lib/Stream
 LibName32=lib/ep4ce10f17
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -71,3 +69,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
