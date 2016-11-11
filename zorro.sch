@@ -540,17 +540,17 @@ Entry Wire Line
 	3150 2425 3250 2325
 Text Label 2950 2425 0    50   ~ 0
 ~CCS
-Text HLabel 11325 5850 2    50   BiDi ~ 0
+Text HLabel 11325 6225 2    50   BiDi ~ 0
 nFCS
 Text HLabel 11325 6075 2    50   BiDi ~ 0
 nCCS
-Text HLabel 11325 5925 2    50   BiDi ~ 0
+Text HLabel 11325 6150 2    50   BiDi ~ 0
 DOE_
 Entry Wire Line
 	3150 2650 3250 2550
 Text Label 2950 2650 0    50   ~ 0
 READ
-Text HLabel 11325 6000 2    50   BiDi ~ 0
+Text HLabel 11325 5850 2    50   BiDi ~ 0
 READ_
 Text Label 2950 1675 0    50   ~ 0
 ~IORST
@@ -572,7 +572,7 @@ Text Label 2900 3400 0    50   ~ 0
 ~MTACK
 Text HLabel 8775 5775 2    50   BiDi ~ 0
 nMTACK
-Text HLabel 11325 7200 2    50   BiDi ~ 0
+Text HLabel 11325 7050 2    50   BiDi ~ 0
 nMTCR
 Text HLabel 14225 4350 2    50   BiDi ~ 0
 A_[2..7]
@@ -665,13 +665,13 @@ Text HLabel 10975 4150 2    50   Output ~ 0
 SenseZ3_
 Text HLabel 7175 8225 2    50   Input ~ 0
 nSLAVEn_OUT
-Text Label 9400 5700 0    50   ~ 0
+Text Label 9400 6225 0    50   ~ 0
 ~DS1
-Text Label 9400 5775 0    50   ~ 0
+Text Label 9400 6150 0    50   ~ 0
 ~FCS
 Text Label 9275 4000 0    50   ~ 0
 ~BCLR
-Text Label 9400 5850 0    50   ~ 0
+Text Label 9400 6075 0    50   ~ 0
 DOE
 Text Label 9300 4375 0    50   ~ 0
 ~IORST
@@ -681,11 +681,11 @@ Text Label 9275 4075 0    50   ~ 0
 SenseZ3
 Text Label 9400 6000 0    50   ~ 0
 ~CCS
-Text Label 9400 6075 0    50   ~ 0
-~DS3
-Text Label 9400 6150 0    50   ~ 0
-~DS2
 Text Label 9400 5925 0    50   ~ 0
+~DS3
+Text Label 9400 5850 0    50   ~ 0
+~DS2
+Text Label 9400 5775 0    50   ~ 0
 READ
 $Comp
 L SN74LVC8T245 U9
@@ -806,17 +806,17 @@ Text Label 11950 9200 0    50   ~ 0
 AD9
 Text Label 11950 9275 0    50   ~ 0
 AD8
-Text Label 9400 6225 0    50   ~ 0
+Text Label 9250 7350 0    50   ~ 0
 ~DS0
-Text Label 9250 7050 0    50   ~ 0
+Text Label 9250 7275 0    50   ~ 0
 FC2
-Text Label 9250 6975 0    50   ~ 0
+Text Label 9250 7125 0    50   ~ 0
 FC1
-Text Label 9250 6900 0    50   ~ 0
+Text Label 9250 7050 0    50   ~ 0
 FC0
 Text Label 6925 5700 0    50   ~ 0
 ~MTACK
-Text Label 9250 7125 0    50   ~ 0
+Text Label 9250 6975 0    50   ~ 0
 ~MTCR
 $Comp
 L SN74LVC8T245 U14
@@ -831,31 +831,31 @@ F 3 "" H 10250 7225 60  0001 C CNN
 $EndComp
 Text Label 11975 4000 0    50   ~ 0
 ~LOCK
-Text Label 11050 5775 0    50   ~ 0
-nDS_1
-Text Label 11050 6150 0    50   ~ 0
-nDS_3
-Text Label 11050 6225 0    50   ~ 0
-nDS_2
 Text Label 11050 6300 0    50   ~ 0
+nDS_1
+Text Label 11050 6000 0    50   ~ 0
+nDS_3
+Text Label 11050 5925 0    50   ~ 0
+nDS_2
+Text Label 11050 7425 0    50   ~ 0
 nDS_0
-Text Label 11050 7125 0    50   ~ 0
+Text Label 11050 7350 0    50   ~ 0
 FC_2
-Text Label 11050 7050 0    50   ~ 0
+Text Label 11050 7200 0    50   ~ 0
 FC_1
-Text Label 11050 6975 0    50   ~ 0
+Text Label 11050 7125 0    50   ~ 0
 FC_0
-Text Label 12025 4075 0    50   ~ 0
-A2
 Text Label 12025 4150 0    50   ~ 0
-A3
+A2
 Text Label 12025 4225 0    50   ~ 0
-A4
+A3
 Text Label 12025 4300 0    50   ~ 0
+A4
+Text Label 12025 4450 0    50   ~ 0
 A5
 Text Label 12025 4375 0    50   ~ 0
 A6
-Text Label 12025 4450 0    50   ~ 0
+Text Label 12025 4075 0    50   ~ 0
 A7
 $Comp
 L SN74LVC8T245 U15
@@ -890,17 +890,17 @@ F 3 "" H 13325 4750 60  0000 C CNN
 	1    13325 4750
 	-1   0    0    1   
 $EndComp
-Text Label 13650 4150 0    50   ~ 0
-A_2
 Text Label 13650 4225 0    50   ~ 0
-A_3
+A_2
 Text Label 13650 4300 0    50   ~ 0
-A_4
+A_3
 Text Label 13650 4375 0    50   ~ 0
+A_4
+Text Label 13650 4525 0    50   ~ 0
 A_5
 Text Label 13650 4450 0    50   ~ 0
 A_6
-Text Label 13650 4525 0    50   ~ 0
+Text Label 13650 4150 0    50   ~ 0
 A_7
 $Comp
 L GND #PWR027
@@ -937,9 +937,9 @@ F 3 "" H 11425 4750 50  0000 C CNN
 $EndComp
 Text Notes 9425 3550 0    60   ~ 12
 Inbound signals (from Zorro to PIC)
-Text Label 9250 7275 0    50   Italic 10
+Text Label 9400 5700 0    50   Italic 10
 ~BGACK
-Text Label 9250 7350 0    50   Italic 10
+Text Label 9250 6900 0    50   Italic 10
 ~OWN
 Text Label 9275 4225 0    50   ~ 0
 E_CLOCK
@@ -1785,9 +1785,9 @@ Wire Wire Line
 	10725 7350 11325 7350
 Wire Wire Line
 	10725 7425 11325 7425
-Text HLabel 11325 7350 2    50   BiDi ~ 0
+Text HLabel 11325 5775 2    50   BiDi ~ 0
 nBGACK
-Text HLabel 11325 7425 2    50   BiDi ~ 0
+Text HLabel 11325 6975 2    50   BiDi ~ 0
 nOWN
 $Comp
 L GND #PWR045
