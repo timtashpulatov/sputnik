@@ -659,7 +659,7 @@ Text HLabel 8150 3950 2    50   Input ~ 0
 nCFGOUTn
 Text HLabel 8150 3875 2    50   Input ~ 0
 nBRn
-Text HLabel 10875 4800 2    50   Output ~ 0
+Text HLabel 10875 4725 2    50   Output ~ 0
 nBGn
 Text HLabel 10875 3850 2    50   Output ~ 0
 SenseZ3_
@@ -922,7 +922,7 @@ Text Label 9400 6225 0    50   Italic 10
 ~BGACK
 Text Label 9250 7425 0    50   Italic 10
 ~OWN
-Text Label 9200 4725 0    50   ~ 0
+Text Label 9225 4800 0    50   ~ 0
 E_CLOCK
 Text HLabel 14225 5000 2    60   Input ~ 0
 DIR_AD
@@ -1568,7 +1568,7 @@ Wire Wire Line
 	10600 3850 10875 3850
 Text HLabel 10875 3775 2    50   Output ~ 0
 7M_
-Text HLabel 10875 4725 2    50   Output ~ 0
+Text HLabel 10875 4800 2    50   Output ~ 0
 E_CLOCK_
 Wire Wire Line
 	10600 3275 10875 3275
@@ -1849,7 +1849,7 @@ Wire Wire Line
 	10600 4325 10875 4325
 Text Label 9200 4250 0    50   ~ 0
 ~CFGINn
-Text Label 9200 4800 0    50   ~ 0
+Text Label 9225 4725 0    50   ~ 0
 ~BGN
 $Comp
 L +3V3 #PWR54
