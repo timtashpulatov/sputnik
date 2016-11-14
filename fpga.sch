@@ -289,13 +289,13 @@ Entry Wire Line
 	5150 6500 5250 6400
 Entry Wire Line
 	5150 6575 5250 6475
-Text Label 7050 7025 2    50   ~ 0
+Text Label 7050 6500 2    50   ~ 0
 FC_2
-Text Label 7050 7275 2    50   ~ 0
+Text Label 9650 7025 0    50   ~ 0
 FC_1
 Entry Wire Line
 	5150 6650 5250 6550
-Text Label 6550 6775 2    50   ~ 0
+Text Label 7050 7025 2    50   ~ 0
 FC_0
 $Comp
 L EP4CE10F17 IC1
@@ -343,7 +343,7 @@ Text HLabel 2175 4175 0    60   BiDi ~ 0
 nBCLR
 Text HLabel 3325 4975 0    60   BiDi ~ 0
 nMTACK
-Text HLabel 6600 6500 0    60   BiDi ~ 0
+Text HLabel 7050 7275 0    60   BiDi ~ 0
 nMTCR
 Text HLabel 4975 5850 0    60   BiDi ~ 0
 A_[2..7]
@@ -451,7 +451,7 @@ F 3 "" H 13775 2025 60  0000 C CNN
 	1    13775 2025
 	1    0    0    -1  
 $EndComp
-Text Label 9850 7025 0    60   ~ 0
+Text Label 10050 6775 0    60   ~ 0
 VREFB4N0
 Text Label 9175 4750 0    60   ~ 0
 VREFB3N0
@@ -659,7 +659,7 @@ F 3 "" H 15100 1250 50  0000 C CNN
 $EndComp
 Text HLabel 6700 6175 0    60   BiDi ~ 0
 nBGACK
-Text HLabel 6575 5525 0    60   BiDi ~ 0
+Text HLabel 7050 6800 0    60   BiDi ~ 0
 nOWN
 Text HLabel 3525 5700 0    60   Input ~ 0
 7M_
