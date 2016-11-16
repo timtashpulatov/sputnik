@@ -329,13 +329,13 @@ Text Label 5625 1325 0    50   ~ 0
 nDS_3
 Text HLabel 7050 6350 0    60   BiDi ~ 0
 nLOCK
-Text HLabel 5925 1400 0    60   BiDi ~ 0
+Text HLabel 7050 2950 0    60   BiDi ~ 0
 nFCS
-Text HLabel 5925 1475 0    60   BiDi ~ 0
+Text HLabel 7050 3475 0    60   BiDi ~ 0
 nCCS
-Text HLabel 5925 1550 0    60   BiDi ~ 0
+Text HLabel 7050 3025 0    60   BiDi ~ 0
 DOE_
-Text HLabel 5925 1625 0    60   BiDi ~ 0
+Text HLabel 7050 4600 0    60   BiDi ~ 0
 READ_
 Text HLabel 7050 5450 0    60   BiDi ~ 0
 nIORST
@@ -453,7 +453,7 @@ F 3 "" H 13775 2025 60  0000 C CNN
 $EndComp
 Text Label 10050 6775 0    60   ~ 0
 VREFB4N0
-Text Label 9175 4750 0    60   ~ 0
+Text Label 9525 4625 0    60   ~ 0
 VREFB3N0
 Text Label 9175 2475 0    60   ~ 0
 VREFB2N0
@@ -657,7 +657,7 @@ F 3 "" H 15100 1250 50  0000 C CNN
 	1    15100 1250
 	1    0    0    -1  
 $EndComp
-Text HLabel 6700 6175 0    60   BiDi ~ 0
+Text HLabel 7050 4525 0    60   BiDi ~ 0
 nBGACK
 Text HLabel 7050 6800 0    60   BiDi ~ 0
 nOWN
@@ -1272,4 +1272,19 @@ Text Label 7050 6275 2    50   ~ 0
 A_7
 Text Label 7050 6200 2    50   ~ 0
 nDS_0
+Text Label 7050 3550 2    50   ~ 0
+nDS_2
+Text Label 9550 4750 0    50   ~ 0
+nDS_3
+Wire Wire Line
+	13325 6675 13400 6675
+Wire Wire Line
+	13400 6675 13400 6600
+Wire Wire Line
+	13325 6600 13675 6600
+Connection ~ 13400 6600
+Text Label 13475 6600 0    60   ~ 0
+GNDA
+Text Label 7050 2175 2    50   ~ 0
+nDS_1
 $EndSCHEMATC
