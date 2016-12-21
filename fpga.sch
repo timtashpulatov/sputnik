@@ -377,7 +377,7 @@ Text HLabel 7050 7575 0    60   Output ~ 0
 nBR
 Text HLabel 7050 1350 0    60   Input ~ 0
 SenseZ3
-Text HLabel 2225 4900 0    60   Output ~ 0
+Text HLabel 7050 7950 0    50   Output ~ 0
 nSLAVEn
 Text HLabel 7050 4525 0    60   Output ~ 0
 nDTACK
