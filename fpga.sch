@@ -167,21 +167,21 @@ Entry Wire Line
 	5475 2050 5575 2150
 Entry Wire Line
 	5475 2125 5575 2225
-Text Label 7050 1950 2    50   ~ 0
-SD_0
 Text Label 7050 2025 2    50   ~ 0
+SD_0
+Text Label 7050 1950 2    50   ~ 0
 SD_1
-Text Label 7050 1125 2    50   ~ 0
-SD_2
-Text Label 7050 1800 2    50   ~ 0
-SD_3
-Text Label 7050 1650 2    50   ~ 0
-SD_4
-Text Label 7050 1725 2    50   ~ 0
-SD_5
-Text Label 7050 1875 2    50   ~ 0
-SD_6
 Text Label 7050 1200 2    50   ~ 0
+SD_2
+Text Label 7050 1875 2    50   ~ 0
+SD_3
+Text Label 7050 1725 2    50   ~ 0
+SD_4
+Text Label 7050 1650 2    50   ~ 0
+SD_5
+Text Label 7050 1800 2    50   ~ 0
+SD_6
+Text Label 7050 1125 2    50   ~ 0
 SD_7
 Entry Wire Line
 	5475 1600 5575 1700
@@ -197,59 +197,59 @@ Entry Wire Line
 	5500 3300 5600 3200
 Entry Wire Line
 	5500 3375 5600 3275
-Text Label 7050 3400 2    50   ~ 0
-AD_31
 Text Label 7050 3325 2    50   ~ 0
-AD_30
+AD_31
 Text Label 7050 3175 2    50   ~ 0
-AD_29
+AD_30
 Text Label 7050 3100 2    50   ~ 0
-AD_28
+AD_29
 Text Label 7050 3250 2    50   ~ 0
+AD_28
+Text Label 7050 2250 2    50   ~ 0
 AD_27
 Entry Wire Line
 	5500 3450 5600 3350
-Text Label 7050 2250 2    50   ~ 0
+Text Label 7050 3025 2    50   ~ 0
 AD_26
 Entry Wire Line
 	5500 3525 5600 3425
 Entry Wire Line
 	5500 3600 5600 3500
-Text Label 7050 2325 2    50   ~ 0
-AD_25
 Text Label 7050 2400 2    50   ~ 0
+AD_25
+Text Label 7050 2325 2    50   ~ 0
 AD_24
 Entry Wire Line
 	5500 3675 5600 3575
-Text Label 7050 3850 2    50   ~ 0
+Text Label 7050 3925 2    50   ~ 0
 AD_23
 Entry Wire Line
 	5500 3750 5600 3650
 Entry Wire Line
 	5500 3825 5600 3725
-Text Label 7050 3925 2    50   ~ 0
-AD_22
 Text Label 7050 4000 2    50   ~ 0
+AD_22
+Text Label 7050 4075 2    50   ~ 0
 AD_21
 Entry Wire Line
 	5500 3900 5600 3800
-Text Label 7050 4075 2    50   ~ 0
+Text Label 7050 4225 2    50   ~ 0
 AD_20
 Entry Wire Line
 	5500 3975 5600 3875
-Text Label 7050 4225 2    50   ~ 0
+Text Label 7050 4300 2    50   ~ 0
 AD_19
 Entry Wire Line
 	5500 4050 5600 3950
-Text Label 7050 4300 2    50   ~ 0
+Text Label 7050 4675 2    50   ~ 0
 AD_18
 Entry Wire Line
 	5500 4125 5600 4025
-Text Label 7050 4675 2    50   ~ 0
+Text Label 7050 4750 2    50   ~ 0
 AD_17
 Entry Wire Line
 	5500 4200 5600 4100
-Text Label 7050 4750 2    50   ~ 0
+Text Label 7050 4600 2    50   ~ 0
 AD_16
 Entry Wire Line
 	5500 4275 5600 4175
@@ -331,11 +331,11 @@ Text HLabel 7050 6575 0    60   BiDi ~ 0
 nLOCK
 Text HLabel 7050 2950 0    60   BiDi ~ 0
 nFCS
-Text HLabel 7050 3475 0    60   BiDi ~ 0
+Text HLabel 7050 1575 0    60   BiDi ~ 0
 nCCS
-Text HLabel 7050 3025 0    60   BiDi ~ 0
+Text HLabel 7050 3475 0    60   BiDi ~ 0
 DOE_
-Text HLabel 7050 4600 0    60   BiDi ~ 0
+Text HLabel 7050 4525 0    60   BiDi ~ 0
 READ_
 Text HLabel 9375 2475 2    60   BiDi ~ 0
 nIORST
@@ -369,13 +369,13 @@ Text Label 7050 7725 2    50   ~ 0
 A_6
 Text HLabel 2225 4525 0    60   Input ~ 0
 nCFGINn
-Text HLabel 2225 4600 0    60   Output ~ 0
+Text HLabel 7050 7350 0    60   Output ~ 0
 nCFGOUTn
-Text HLabel 2225 4750 0    60   Input ~ 0
+Text HLabel 7050 3400 0    60   Input ~ 0
 nBG
-Text HLabel 2225 4675 0    60   Output ~ 0
+Text HLabel 7050 7575 0    60   Output ~ 0
 nBR
-Text HLabel 7050 1275 0    60   Input ~ 0
+Text HLabel 7050 1350 0    60   Input ~ 0
 SenseZ3
 Text HLabel 2225 4900 0    60   Output ~ 0
 nSLAVEn
@@ -657,13 +657,13 @@ F 3 "" H 15100 1250 50  0000 C CNN
 	1    15100 1250
 	1    0    0    -1  
 $EndComp
-Text HLabel 7050 4525 0    60   BiDi ~ 0
+Text HLabel 7050 4450 0    60   BiDi ~ 0
 nBGACK
 Text HLabel 7050 6800 0    60   BiDi ~ 0
 nOWN
-Text HLabel 7050 1350 0    60   Input ~ 0
+Text HLabel 7050 1275 0    60   Input ~ 0
 7M_
-Text HLabel 3525 5925 0    60   Input ~ 0
+Text HLabel 7050 3850 0    60   Input ~ 0
 E_CLOCK_
 $Comp
 L C C17
