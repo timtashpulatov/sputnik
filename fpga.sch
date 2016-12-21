@@ -367,7 +367,7 @@ Text Label 7050 8025 2    50   ~ 0
 A_5
 Text Label 7050 7725 2    50   ~ 0
 A_6
-Text HLabel 2225 4525 0    60   Input ~ 0
+Text HLabel 7050 9000 0    50   Input ~ 0
 nCFGINn
 Text HLabel 7050 7350 0    60   Output ~ 0
 nCFGOUTn
@@ -740,7 +740,7 @@ Text Notes 1000 9725 0    60   ~ 0
 Bank 8 pins for x16\n\nC8 DQS5T/CQ5T#\nD8 DQ5T\nE8 DQ5T\nA7 DQ5T\nB7 DQ5T\nA6 DQS3T/CQ3T#\nB6 DQ5T\nE7 DQ5T\nE6 DQ5T\nA5 DQ5T\nB5 DQ5T\nA4 DM5T/BWS#5T\nB3 DQS1T/CQ1T#,DPCLK7
 Text Notes 1000 8150 0    60   ~ 0
 Bank 7 pins for x16\n\nD14 DQ5T\nD12 DQS0T/CQ1T,DPCLK6\nB13 DQ5T\nA12 DQ5T\nB12 DQ5T\nA11 DQ5T\nB11 DQ5T\nF9 DQS2T/CQ3T\nA10 DQ5T\nB10 DQ5T\nC9 DQ5T\nD9 DM5T/BWS#5T\nE9 DQS4T/CQ5T
-Text HLabel 2225 4975 0    60   Input ~ 0
+Text HLabel 7050 8925 0    50   Input ~ 0
 nSLAVEn_IN
 Text HLabel 15225 6150 2    60   Output ~ 0
 CMD
