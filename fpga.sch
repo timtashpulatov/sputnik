@@ -329,13 +329,13 @@ Text Label 5625 1325 0    50   ~ 0
 nDS_3
 Text HLabel 7050 6575 0    60   BiDi ~ 0
 nLOCK
-Text HLabel 7050 2950 0    60   BiDi ~ 0
+Text HLabel 7050 2950 0    50   BiDi ~ 0
 nFCS
-Text HLabel 7050 1575 0    60   BiDi ~ 0
+Text HLabel 7050 3625 0    60   BiDi ~ 0
 nCCS
 Text HLabel 7050 3475 0    60   BiDi ~ 0
 DOE_
-Text HLabel 7050 4525 0    60   BiDi ~ 0
+Text HLabel 7050 4450 0    60   BiDi ~ 0
 READ_
 Text HLabel 9375 2475 2    60   BiDi ~ 0
 nIORST
@@ -379,7 +379,7 @@ Text HLabel 7050 1350 0    60   Input ~ 0
 SenseZ3
 Text HLabel 2225 4900 0    60   Output ~ 0
 nSLAVEn
-Text HLabel 7050 3700 0    60   Output ~ 0
+Text HLabel 7050 4525 0    60   Output ~ 0
 nDTACK
 Text HLabel 7050 5525 0    60   Output ~ 0
 nHLT
@@ -657,7 +657,7 @@ F 3 "" H 15100 1250 50  0000 C CNN
 	1    15100 1250
 	1    0    0    -1  
 $EndComp
-Text HLabel 7050 4450 0    60   BiDi ~ 0
+Text HLabel 7050 4375 0    60   BiDi ~ 0
 nBGACK
 Text HLabel 7050 6800 0    60   BiDi ~ 0
 nOWN
@@ -1287,6 +1287,6 @@ Text Label 13475 6600 0    60   ~ 0
 GNDA
 Text Label 7050 2175 2    50   ~ 0
 nDS_1
-Text HLabel 7050 3625 0    60   Output ~ 0
+Text HLabel 7050 3700 0    60   Output ~ 0
 nDTACK_OUT
 $EndSCHEMATC
