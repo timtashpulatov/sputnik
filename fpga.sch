@@ -107,10 +107,10 @@ F 4 "EP4CE10F17" H 13250 6825 60  0000 C CNN "Component Value"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR01
 U 1 1 5807C448
 P 12075 6725
-F 0 "#PWR2" H 12075 6475 50  0001 C CNN
+F 0 "#PWR01" H 12075 6475 50  0001 C CNN
 F 1 "GND" H 12075 6575 50  0000 C CNN
 F 2 "" H 12075 6725 50  0000 C CNN
 F 3 "" H 12075 6725 50  0000 C CNN
@@ -327,7 +327,7 @@ Entry Wire Line
 	5475 1425 5575 1325
 Text Label 5625 1325 0    50   ~ 0
 nDS_3
-Text HLabel 7050 6350 0    60   BiDi ~ 0
+Text HLabel 7050 6575 0    60   BiDi ~ 0
 nLOCK
 Text HLabel 7050 2950 0    60   BiDi ~ 0
 nFCS
@@ -341,7 +341,7 @@ Text HLabel 9375 2475 2    60   BiDi ~ 0
 nIORST
 Text HLabel 7050 2100 0    60   BiDi ~ 0
 nBCLR
-Text HLabel 3325 4975 0    60   BiDi ~ 0
+Text HLabel 7050 6350 0    60   BiDi ~ 0
 nMTACK
 Text HLabel 7050 7275 0    60   BiDi ~ 0
 nMTCR
@@ -349,7 +349,7 @@ Text HLabel 4975 5850 0    60   BiDi ~ 0
 A_[2..7]
 Entry Wire Line
 	5100 5700 5200 5600
-Text Label 7050 6575 2    50   ~ 0
+Text Label 7050 6650 2    50   ~ 0
 A_2
 Entry Wire Line
 	5100 5775 5200 5675
@@ -361,11 +361,11 @@ Entry Wire Line
 	5100 6000 5200 5900
 Entry Wire Line
 	5100 6075 5200 5975
-Text Label 7050 6725 2    50   ~ 0
-A_3
-Text Label 7050 7650 2    50   ~ 0
-A_5
 Text Label 7050 7800 2    50   ~ 0
+A_3
+Text Label 7050 8025 2    50   ~ 0
+A_5
+Text Label 7050 7725 2    50   ~ 0
 A_6
 Text HLabel 2225 4525 0    60   Input ~ 0
 nCFGINn
@@ -387,7 +387,7 @@ Text Notes 2100 6425 0    50   ~ 0
 OWN /DTACK /HLT /BGACK\n/RESET /CINH /INT 2 /BERR /INT 6
 Text HLabel 1700 5850 0    60   Output ~ 0
 nRESET
-Text HLabel 1700 5925 0    60   Output ~ 0
+Text HLabel 7050 6275 0    60   Output ~ 0
 nCINH
 Text HLabel 1700 6000 0    60   Output ~ 0
 nINT2
@@ -427,10 +427,10 @@ F 9 "PinH_2x5_TH" V 2350 2975 39  0000 C CNN "Component Value"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR1
+L GND #PWR02
 U 1 1 57F7A288
 P 2675 3000
-F 0 "#PWR1" H 2675 2750 50  0001 C CNN
+F 0 "#PWR02" H 2675 2750 50  0001 C CNN
 F 1 "GND" H 2675 2850 50  0000 C CNN
 F 2 "" H 2675 3000 50  0000 C CNN
 F 3 "" H 2675 3000 50  0000 C CNN
@@ -441,10 +441,10 @@ NoConn ~ 2100 2775
 NoConn ~ 2600 2675
 NoConn ~ 2600 2775
 $Comp
-L +3V3 #PWR4
+L +3V3 #PWR03
 U 1 1 57F8D5C6
 P 13775 2025
-F 0 "#PWR4" H 13875 2075 20  0001 C CNN
+F 0 "#PWR03" H 13875 2075 20  0001 C CNN
 F 1 "+3V3" H 13775 2115 30  0000 C CNN
 F 2 "" H 13775 2025 60  0000 C CNN
 F 3 "" H 13775 2025 60  0000 C CNN
@@ -535,10 +535,10 @@ F 3 "" H 14525 2175 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR04
 U 1 1 57F8FD8F
 P 13775 2325
-F 0 "#PWR5" H 13775 2075 50  0001 C CNN
+F 0 "#PWR04" H 13775 2075 50  0001 C CNN
 F 1 "GND" H 13775 2175 50  0000 C CNN
 F 2 "" H 13775 2325 50  0000 C CNN
 F 3 "" H 13775 2325 50  0000 C CNN
@@ -579,10 +579,10 @@ F 3 "" H 13525 1250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR05
 U 1 1 57F90743
 P 13275 1400
-F 0 "#PWR3" H 13275 1150 50  0001 C CNN
+F 0 "#PWR05" H 13275 1150 50  0001 C CNN
 F 1 "GND" H 13275 1250 50  0000 C CNN
 F 2 "" H 13275 1400 50  0000 C CNN
 F 3 "" H 13275 1400 50  0000 C CNN
@@ -676,7 +676,7 @@ F 3 "" H 14775 2175 50  0000 C CNN
 	1    14775 2175
 	1    0    0    -1  
 $EndComp
-Text Label 7050 6650 2    50   ~ 0
+Text Label 7050 7650 2    50   ~ 0
 A_4
 $Comp
 L EP4CE10F17 IC1
@@ -1268,7 +1268,7 @@ Text Label 14375 8225 0    50   ~ 0
 ETH_SD14
 Text Label 14375 8325 0    50   ~ 0
 ETH_SD15
-Text Label 7050 6275 2    50   ~ 0
+Text Label 7050 6725 2    50   ~ 0
 A_7
 Text Label 7050 6200 2    50   ~ 0
 nDS_0
