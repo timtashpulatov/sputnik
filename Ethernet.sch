@@ -363,7 +363,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 5700 4950 5575
 Text Label 3400 3925 0    50   ~ 0
-ETH_SD13
+ETHSD_13
 Wire Wire Line
 	3900 4025 3400 4025
 Wire Wire Line
@@ -373,15 +373,15 @@ Wire Wire Line
 Wire Wire Line
 	3900 4525 3400 4525
 Text Label 3400 4025 0    50   ~ 0
-ETH_SD12
+ETHSD_12
 Text Label 3400 4125 0    50   ~ 0
-ETH_SD11
+ETHSD_11
 Text Label 3400 4225 0    50   ~ 0
-ETH_SD10
+ETHSD_10
 Text Label 3400 4325 0    50   ~ 0
-ETH_SD9
+ETHSD_9
 Text Label 3400 4525 0    50   ~ 0
-ETH_SD8
+ETHSD_8
 Wire Wire Line
 	6100 4225 6450 4225
 Wire Wire Line
@@ -435,43 +435,39 @@ Wire Wire Line
 	3900 3925 3400 3925
 Connection ~ 6150 4575
 Text Label 6600 4125 2    50   ~ 0
-ETH_SD7
+ETHSD_7
 Wire Wire Line
 	6100 4025 6600 4025
 Text Label 6600 4025 2    50   ~ 0
-ETH_SD6
+ETHSD_6
 Text Label 6600 3925 2    50   ~ 0
-ETH_SD5
+ETHSD_5
 Wire Wire Line
 	6100 3925 6600 3925
 Wire Wire Line
 	6100 4125 6600 4125
-Text Label 2500 3050 2    50   ~ 0
-ETH_SD14
-Wire Wire Line
-	2000 3050 2500 3050
 Text Label 4650 2875 3    50   ~ 0
-ETH_SD15
+ETHSD_15
 Wire Wire Line
 	4650 3375 4650 2875
 Text Label 5050 2875 3    50   ~ 0
-ETH_SD0
+ETHSD_0
 Wire Wire Line
 	5050 3375 5050 2875
 Text Label 5150 2875 3    50   ~ 0
-ETH_SD1
+ETHSD_1
 Wire Wire Line
 	5150 3375 5150 2875
 Text Label 5250 2875 3    50   ~ 0
-ETH_SD2
+ETHSD_2
 Wire Wire Line
 	5250 3375 5250 2875
 Text Label 5450 2875 3    50   ~ 0
-ETH_SD3
+ETHSD_3
 Wire Wire Line
 	5450 3375 5450 2875
 Text Label 5550 2875 3    50   ~ 0
-ETH_SD4
+ETHSD_4
 Wire Wire Line
 	5550 3375 5550 2875
 Wire Wire Line
@@ -879,105 +875,11 @@ F 3 "" H 9325 5300 60  0000 C CNN
 $EndComp
 NoConn ~ 8000 4325
 Text HLabel 1775 1100 0    60   BiDi ~ 0
-ETH_SD[0:15]
+ETHSD_[0:15]
 Wire Bus Line
 	1775 1100 1900 1100
-Wire Bus Line
-	1900 1100 1900 3050
-Text Label 2500 2950 2    50   ~ 0
-ETH_SD13
-Wire Wire Line
-	2000 2850 2500 2850
-Wire Wire Line
-	2000 2650 2500 2650
-Wire Wire Line
-	2000 2550 2500 2550
-Text Label 2500 2850 2    50   ~ 0
-ETH_SD12
-Text Label 2500 2750 2    50   ~ 0
-ETH_SD11
-Text Label 2500 2650 2    50   ~ 0
-ETH_SD10
-Text Label 2500 2550 2    50   ~ 0
-ETH_SD9
-Wire Wire Line
-	2000 2750 2500 2750
-Wire Wire Line
-	2000 2950 2500 2950
-Entry Wire Line
-	1900 1550 2000 1650
-Entry Wire Line
-	1900 1650 2000 1750
-Entry Wire Line
-	1900 1750 2000 1850
-Entry Wire Line
-	1900 1850 2000 1950
-Entry Wire Line
-	1900 1950 2000 2050
-Entry Wire Line
-	1900 2050 2000 2150
-Entry Wire Line
-	1900 2150 2000 2250
-Entry Wire Line
-	1900 2250 2000 2350
-Entry Wire Line
-	1900 2350 2000 2450
-Entry Wire Line
-	1900 2450 2000 2550
-Entry Wire Line
-	1900 2550 2000 2650
-Entry Wire Line
-	1900 2650 2000 2750
-Entry Wire Line
-	1900 2750 2000 2850
-Entry Wire Line
-	1900 2850 2000 2950
-Entry Wire Line
-	1900 2950 2000 3050
-Entry Wire Line
-	1900 3050 2000 3150
-Text Label 2500 1650 2    50   ~ 0
-ETH_SD0
-Wire Wire Line
-	2000 1650 2500 1650
-Text Label 2500 1750 2    50   ~ 0
-ETH_SD1
-Wire Wire Line
-	2000 1750 2500 1750
-Text Label 2500 1850 2    50   ~ 0
-ETH_SD2
-Wire Wire Line
-	2000 1850 2500 1850
-Text Label 2500 1950 2    50   ~ 0
-ETH_SD3
-Wire Wire Line
-	2000 1950 2500 1950
-Text Label 2500 2050 2    50   ~ 0
-ETH_SD4
-Wire Wire Line
-	2000 2050 2500 2050
-Text Label 2500 2350 2    50   ~ 0
-ETH_SD7
-Wire Wire Line
-	2000 2250 2500 2250
-Text Label 2500 2250 2    50   ~ 0
-ETH_SD6
-Text Label 2500 2150 2    50   ~ 0
-ETH_SD5
-Wire Wire Line
-	2000 2150 2500 2150
-Wire Wire Line
-	2000 2350 2500 2350
-Wire Wire Line
-	2000 2450 2500 2450
-Text Label 2500 2450 2    50   ~ 0
-ETH_SD8
-Text Label 2500 3150 2    50   ~ 0
-ETH_SD15
-Wire Wire Line
-	2000 3150 2500 3150
 Text Label 4450 2875 3    50   ~ 0
-ETH_SD14
+ETHSD_14
 Wire Wire Line
 	4450 3375 4450 2875
 Wire Wire Line
