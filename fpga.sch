@@ -1267,9 +1267,9 @@ F 3 "" H 2650 4500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2650 3925
-Text Label 9250 9000 0    50   ~ 0
-IORST#
 Text Label 7050 8175 2    50   ~ 0
+IORST#
+Text Label 9525 9000 2    50   ~ 0
 CS#
 Text Label 7050 8250 2    50   ~ 0
 IOW#

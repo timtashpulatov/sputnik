@@ -736,13 +736,13 @@ Wire Wire Line
 	7250 4925 7250 4325
 Connection ~ 7250 4325
 Text Label 7500 4325 2    50   ~ 0
-TXn
+TX_N
 Text Label 7500 4425 2    50   ~ 0
-TXp
+TX_P
 Text Label 7500 4725 2    50   ~ 0
-RXn
+RX_N
 Text Label 7500 4825 2    50   ~ 0
-RXp
+RX_P
 Wire Wire Line
 	6375 4575 7900 4575
 Wire Wire Line
