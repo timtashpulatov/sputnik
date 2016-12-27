@@ -341,7 +341,7 @@ Text HLabel 9375 2475 2    60   BiDi ~ 0
 nIORST
 Text HLabel 7050 2100 0    60   BiDi ~ 0
 nBCLR
-Text HLabel 7050 6350 0    60   BiDi ~ 0
+Text HLabel 7050 6350 0    50   BiDi ~ 0
 nMTACK
 Text HLabel 7050 7275 0    60   BiDi ~ 0
 nMTCR
@@ -387,7 +387,7 @@ Text Notes 2100 6425 0    50   ~ 0
 OWN /DTACK /HLT /BGACK\n/RESET /CINH /INT 2 /BERR /INT 6
 Text HLabel 1700 5850 0    60   Output ~ 0
 nRESET
-Text HLabel 7050 6275 0    60   Output ~ 0
+Text HLabel 7050 6275 0    50   Output ~ 0
 nCINH
 Text HLabel 1700 6000 0    60   Output ~ 0
 nINT2
@@ -659,7 +659,7 @@ F 3 "" H 15100 1250 50  0000 C CNN
 $EndComp
 Text HLabel 7050 4375 0    60   BiDi ~ 0
 nBGACK
-Text HLabel 7050 6800 0    60   BiDi ~ 0
+Text HLabel 7050 6800 0    50   BiDi ~ 0
 nOWN
 Text HLabel 7050 1275 0    60   Input ~ 0
 7M_
@@ -755,7 +755,7 @@ CS#
 Text HLabel 15225 6525 2    60   Output ~ 0
 IORST#
 Text HLabel 15200 6725 2    60   BiDi ~ 0
-ETHSD_[0:15]
+ETHSD[0..15]
 Wire Wire Line
 	12125 4425 12075 4425
 Wire Wire Line
@@ -1280,25 +1280,77 @@ IOR#
 Text Label 7050 8550 2    50   ~ 0
 CMD
 Text Label 7050 7425 2    50   ~ 0
-ETHSD_8
+ETHSD8
 Text Label 7050 8100 2    50   ~ 0
-ETHSD_9
+ETHSD9
 Text Label 7050 7500 2    50   ~ 0
-ETHSD_10
+ETHSD10
 Text Label 7050 8775 2    50   ~ 0
-ETHSD_11
+ETHSD11
 Text Label 7050 8850 2    50   ~ 0
-ETHSD_12
+ETHSD12
 Text Label 7050 8700 2    50   ~ 0
-ETHSD_13
+ETHSD13
 Wire Bus Line
-	15100 6725 15100 7075
-Wire Bus Line
-	15100 7075 15125 7075
-Text Label 15200 7025 0    50   ~ 0
-ETHSD_13
+	15100 6725 15100 7925
 Entry Wire Line
 	15100 6925 15200 7025
 Wire Wire Line
 	15200 7025 15600 7025
+Entry Wire Line
+	15100 7025 15200 7125
+Entry Wire Line
+	15100 7125 15200 7225
+Entry Wire Line
+	15100 7225 15200 7325
+Entry Wire Line
+	15100 7325 15200 7425
+Entry Wire Line
+	15100 7425 15200 7525
+Entry Wire Line
+	15100 7525 15200 7625
+Entry Wire Line
+	15100 7625 15200 7725
+Wire Wire Line
+	15200 7125 15600 7125
+Wire Wire Line
+	15200 7225 15600 7225
+Wire Wire Line
+	15200 7325 15600 7325
+Wire Wire Line
+	15200 7425 15600 7425
+Wire Wire Line
+	15200 7525 15600 7525
+Wire Wire Line
+	15200 7625 15600 7625
+Wire Wire Line
+	15200 7725 15600 7725
+Text Label 15600 7225 2    50   ~ 0
+ETHSD13
+Text Label 15600 7325 2    50   ~ 0
+ETHSD12
+Text Label 15600 7425 2    50   ~ 0
+ETHSD11
+Text Label 15600 7525 2    50   ~ 0
+ETHSD10
+Text Label 7050 6425 2    50   ~ 0
+ETHSD7
+Text Label 7050 5450 2    50   ~ 0
+ETHSD6
+Text Label 7050 5375 2    50   ~ 0
+ETHSD5
+Text Label 7050 5300 2    50   ~ 0
+ETHSD4
+Text Label 7050 6950 2    50   ~ 0
+ETHSD3
+Text Label 7050 6875 2    50   ~ 0
+ETHSD2
+Text Label 7050 7875 2    50   ~ 0
+ETHSD1
+Text Label 7050 6125 2    50   ~ 0
+ETHSD0
+Text Label 7050 8325 2    50   ~ 0
+ETHSD15
+Text Label 7050 6050 2    50   ~ 0
+ETHSD14
 $EndSCHEMATC

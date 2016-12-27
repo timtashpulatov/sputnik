@@ -363,7 +363,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 5700 4950 5575
 Text Label 3400 3925 0    50   ~ 0
-ETHSD_13
+ETHSD13
 Wire Wire Line
 	3900 4025 3400 4025
 Wire Wire Line
@@ -373,15 +373,15 @@ Wire Wire Line
 Wire Wire Line
 	3900 4525 3400 4525
 Text Label 3400 4025 0    50   ~ 0
-ETHSD_12
+ETHSD12
 Text Label 3400 4125 0    50   ~ 0
-ETHSD_11
+ETHSD11
 Text Label 3400 4225 0    50   ~ 0
-ETHSD_10
+ETHSD10
 Text Label 3400 4325 0    50   ~ 0
-ETHSD_9
+ETHSD9
 Text Label 3400 4525 0    50   ~ 0
-ETHSD_8
+ETHSD8
 Wire Wire Line
 	6100 4225 6450 4225
 Wire Wire Line
@@ -435,39 +435,39 @@ Wire Wire Line
 	3900 3925 3400 3925
 Connection ~ 6150 4575
 Text Label 6600 4125 2    50   ~ 0
-ETHSD_7
+ETHSD7
 Wire Wire Line
 	6100 4025 6600 4025
 Text Label 6600 4025 2    50   ~ 0
-ETHSD_6
+ETHSD6
 Text Label 6600 3925 2    50   ~ 0
-ETHSD_5
+ETHSD5
 Wire Wire Line
 	6100 3925 6600 3925
 Wire Wire Line
 	6100 4125 6600 4125
 Text Label 4650 2875 3    50   ~ 0
-ETHSD_15
+ETHSD15
 Wire Wire Line
 	4650 3375 4650 2875
 Text Label 5050 2875 3    50   ~ 0
-ETHSD_0
+ETHSD0
 Wire Wire Line
 	5050 3375 5050 2875
 Text Label 5150 2875 3    50   ~ 0
-ETHSD_1
+ETHSD1
 Wire Wire Line
 	5150 3375 5150 2875
 Text Label 5250 2875 3    50   ~ 0
-ETHSD_2
+ETHSD2
 Wire Wire Line
 	5250 3375 5250 2875
 Text Label 5450 2875 3    50   ~ 0
-ETHSD_3
+ETHSD3
 Wire Wire Line
 	5450 3375 5450 2875
 Text Label 5550 2875 3    50   ~ 0
-ETHSD_4
+ETHSD4
 Wire Wire Line
 	5550 3375 5550 2875
 Wire Wire Line
@@ -875,11 +875,11 @@ F 3 "" H 9325 5300 60  0000 C CNN
 $EndComp
 NoConn ~ 8000 4325
 Text HLabel 1775 1100 0    60   BiDi ~ 0
-ETHSD_[0:15]
+ETHSD[0..15]
 Wire Bus Line
 	1775 1100 1900 1100
 Text Label 4450 2875 3    50   ~ 0
-ETHSD_14
+ETHSD14
 Wire Wire Line
 	4450 3375 4450 2875
 Wire Wire Line
@@ -960,4 +960,56 @@ Wire Wire Line
 	7050 3025 7050 2925
 Wire Wire Line
 	7050 2925 7000 2925
+Wire Bus Line
+	1900 1100 1900 2800
+Entry Wire Line
+	1900 1200 2000 1300
+Entry Wire Line
+	1900 1300 2000 1400
+Entry Wire Line
+	1900 1400 2000 1500
+Entry Wire Line
+	1900 1500 2000 1600
+Entry Wire Line
+	1900 1600 2000 1700
+Entry Wire Line
+	1900 1700 2000 1800
+Entry Wire Line
+	1900 1800 2000 1900
+Entry Wire Line
+	1900 1900 2000 2000
+Wire Wire Line
+	2000 1300 2525 1300
+Wire Wire Line
+	2000 1400 2525 1400
+Wire Wire Line
+	2000 1500 2525 1500
+Wire Wire Line
+	2000 1600 2525 1600
+Text Label 2525 1300 2    50   ~ 0
+ETHSD13
+Text Label 2525 1400 2    50   ~ 0
+ETHSD12
+Text Label 2525 1500 2    50   ~ 0
+ETHSD11
+Text Label 2525 1600 2    50   ~ 0
+ETHSD10
+Entry Wire Line
+	1900 2000 2000 2100
+Entry Wire Line
+	1900 2100 2000 2200
+Entry Wire Line
+	1900 2200 2000 2300
+Entry Wire Line
+	1900 2300 2000 2400
+Entry Wire Line
+	1900 2400 2000 2500
+Entry Wire Line
+	1900 2500 2000 2600
+Entry Wire Line
+	1900 2600 2000 2700
+Entry Wire Line
+	1900 2700 2000 2800
+Entry Wire Line
+	1900 2800 2000 2900
 $EndSCHEMATC
