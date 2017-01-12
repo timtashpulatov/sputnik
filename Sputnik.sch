@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -258,4 +258,10 @@ Wire Wire Line
 	3100 3850 4600 3850
 Wire Bus Line
 	10600 4350 11300 4350
+$Sheet
+S 11325 2675 1600 1225
+U 587F5FE1
+F0 "usb" 60
+F1 "usb.sch" 60
+$EndSheet
 $EndSCHEMATC
