@@ -452,4 +452,172 @@ Text Label 1800 3275 0    60   ~ 0
 A6
 Text Label 1800 3375 0    60   ~ 0
 A7
+Text HLabel 1575 725  0    60   BiDi ~ 0
+USBAD[0:15]
+Wire Bus Line
+	1575 725  1700 725 
+Wire Bus Line
+	1700 725  1700 2550
+Entry Wire Line
+	1700 1050 1800 950 
+Entry Wire Line
+	1700 1150 1800 1050
+Entry Wire Line
+	1700 1250 1800 1150
+Entry Wire Line
+	1700 1350 1800 1250
+Entry Wire Line
+	1700 1450 1800 1350
+Entry Wire Line
+	1700 1550 1800 1450
+Entry Wire Line
+	1700 1650 1800 1550
+Entry Wire Line
+	1700 1750 1800 1650
+Entry Wire Line
+	1700 1850 1800 1750
+Entry Wire Line
+	1700 1950 1800 1850
+Entry Wire Line
+	1700 2050 1800 1950
+Entry Wire Line
+	1700 2150 1800 2050
+Entry Wire Line
+	1700 2250 1800 2150
+Entry Wire Line
+	1700 2350 1800 2250
+Entry Wire Line
+	1700 2450 1800 2350
+Entry Wire Line
+	1700 2550 1800 2450
+Wire Wire Line
+	1800 950  2075 950 
+Wire Wire Line
+	1800 1050 2075 1050
+Wire Wire Line
+	1800 1150 2075 1150
+Wire Wire Line
+	1800 1250 2075 1250
+Wire Wire Line
+	1800 1350 2075 1350
+Wire Wire Line
+	1800 1450 2075 1450
+Wire Wire Line
+	1800 1550 2075 1550
+Wire Wire Line
+	1800 1650 2075 1650
+Wire Wire Line
+	1800 1750 2075 1750
+Wire Wire Line
+	1800 1850 2075 1850
+Wire Wire Line
+	1800 1950 2075 1950
+Wire Wire Line
+	1800 2050 2075 2050
+Wire Wire Line
+	1800 2150 2075 2150
+Wire Wire Line
+	1800 2250 2075 2250
+Wire Wire Line
+	1800 2350 2075 2350
+Wire Wire Line
+	1800 2450 2075 2450
+Text HLabel 1600 3525 0    60   BiDi ~ 0
+USBA[0:7]
+Wire Bus Line
+	1700 3525 1600 3525
+Wire Bus Line
+	1700 2650 1700 3525
+Entry Wire Line
+	1700 2775 1800 2675
+Entry Wire Line
+	1700 2875 1800 2775
+Entry Wire Line
+	1700 2975 1800 2875
+Entry Wire Line
+	1700 3075 1800 2975
+Entry Wire Line
+	1700 3175 1800 3075
+Entry Wire Line
+	1700 3275 1800 3175
+Entry Wire Line
+	1700 3375 1800 3275
+Entry Wire Line
+	1700 3475 1800 3375
+Wire Wire Line
+	1800 2675 2075 2675
+Wire Wire Line
+	1800 2775 2075 2775
+Wire Wire Line
+	1800 2875 2075 2875
+Wire Wire Line
+	1800 2975 2075 2975
+Wire Wire Line
+	1800 3075 2075 3075
+Wire Wire Line
+	1800 3175 2075 3175
+Wire Wire Line
+	1800 3275 2075 3275
+Wire Wire Line
+	1800 3375 2075 3375
+Wire Wire Line
+	5325 5100 5325 5650
+Wire Wire Line
+	5425 5100 5425 5650
+Wire Wire Line
+	5525 5100 5525 5650
+Wire Wire Line
+	5625 5100 5625 5650
+Text Label 5325 5650 1    60   ~ 0
+USB_CS
+Text Label 5425 5650 1    60   ~ 0
+USB_RD
+Text Label 5525 5650 1    60   ~ 0
+USB_WR
+Text Label 5625 5650 1    60   ~ 0
+USB_INT
+Wire Wire Line
+	1600 4350 2150 4350
+Wire Wire Line
+	1600 4450 2150 4450
+Wire Wire Line
+	1600 4550 2150 4550
+Wire Wire Line
+	1600 4650 2150 4650
+Text Label 2150 4350 2    60   ~ 0
+USB_CS
+Text Label 2150 4450 2    60   ~ 0
+USB_RD
+Text Label 2150 4550 2    60   ~ 0
+USB_WR
+Text Label 2150 4650 2    60   ~ 0
+USB_INT
+Text HLabel 1600 4650 0    60   Output ~ 0
+USB_INT
+Text HLabel 1600 4550 0    60   Input ~ 0
+USB_WR
+Text HLabel 1600 4450 0    60   Input ~ 0
+USB_RD
+Text HLabel 1600 4350 0    60   Input ~ 0
+USB_CS
+Wire Wire Line
+	7000 4125 7550 4125
+Wire Wire Line
+	7000 4025 7550 4025
+Text Label 7550 4125 2    60   ~ 0
+USB_DREQ
+Text Label 7550 4025 2    60   ~ 0
+USB_DACK
+Wire Wire Line
+	1575 5325 2125 5325
+Wire Wire Line
+	1575 5225 2125 5225
+Text Label 2125 5325 2    60   ~ 0
+USB_DREQ
+Text Label 2125 5225 2    60   ~ 0
+USB_DACK
+Text HLabel 1575 5225 0    60   BiDi ~ 0
+USB_DACK
+Text HLabel 1575 5325 0    60   BiDi ~ 0
+USB_DREQ
 $EndSCHEMATC
