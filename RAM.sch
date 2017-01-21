@@ -197,12 +197,8 @@ Text HLabel 2700 1850 0    60   Input ~ 0
 LDM
 Text HLabel 2700 1750 0    60   Input ~ 0
 LDQS
-Text HLabel 2700 1650 0    60   Input ~ 0
-LDQS#
 Text HLabel 2700 3050 0    60   Input ~ 0
-UDQS_P
-Text HLabel 2700 2950 0    60   Input ~ 0
-UDQS_N
+UDQS
 $Comp
 L EP4CE10F17 IC1
 U 8 1 57FD568F
@@ -327,10 +323,10 @@ BA0
 Text Label 2925 5900 0    60   ~ 0
 BA1
 $Comp
-L GND #PWR131
+L GND #PWR0131
 U 1 1 5882F59D
 P 6275 7300
-F 0 "#PWR131" H 6275 7050 50  0001 C CNN
+F 0 "#PWR0131" H 6275 7050 50  0001 C CNN
 F 1 "GND" H 6275 7150 50  0001 C CNN
 F 2 "" H 6275 7300 50  0000 C CNN
 F 3 "" H 6275 7300 50  0000 C CNN
@@ -577,10 +573,6 @@ Wire Wire Line
 	5000 5025 4550 5025
 Wire Wire Line
 	3100 7000 2675 7000
-Text Label 4625 3525 2    50   ~ 0
-UDQS_P
-Text Label 4600 3425 2    50   ~ 0
-UDQS_N
 Wire Wire Line
 	3100 6500 2525 6500
 Wire Wire Line
@@ -609,13 +601,13 @@ Text Label 7950 2350 2    50   ~ 0
 DQ8
 Text Label 7950 2275 2    50   ~ 0
 DQ13
-Text Label 7950 2200 2    50   ~ 0
-DQ7
 Text Label 7950 2125 2    50   ~ 0
-DQ0
+DQ7
 Text Label 7950 2650 2    50   ~ 0
-DQ5
+DQ0
 Text Label 7950 2575 2    50   ~ 0
+DQ5
+Text Label 7950 2800 2    50   ~ 0
 DQ2
 Text Label 5250 3700 2    50   ~ 0
 CKE
@@ -625,8 +617,50 @@ Text Label 5250 3325 2    50   ~ 0
 A10
 Text Label 5250 2875 2    50   ~ 0
 A3
-Text Label 7425 3675 0    50   ~ 0
+Text Label 5250 2650 2    50   ~ 0
 A7
-Text Label 5250 3400 2    50   ~ 0
+Text Label 5250 2425 2    50   ~ 0
 A12
+Text Label 7950 2200 2    50   ~ 0
+DQ10
+Text Label 7950 2725 2    50   ~ 0
+A8
+Text Label 7950 3250 2    50   ~ 0
+A11
+Text Label 5250 2350 2    50   ~ 0
+A9
+Text Label 7950 3325 2    50   ~ 0
+CLK_N
+Text Label 7950 3400 2    50   ~ 0
+CLK_P
+Text Label 7950 1975 2    50   ~ 0
+CAS#
+Text Label 10100 3625 0    50   ~ 0
+A2
+Text Label 5250 3400 2    50   ~ 0
+A5
+Text Label 7425 3675 0    50   ~ 0
+A1
+Text Label 5250 2050 2    50   ~ 0
+BA1
+Text Label 5250 2125 2    50   ~ 0
+WE#
+Text Label 5250 1975 2    50   ~ 0
+LDM
+Text Label 5250 1900 2    50   ~ 0
+UDM
+Text Label 7950 3625 2    50   ~ 0
+UDQS
+Text Label 7950 3550 2    50   ~ 0
+LDQS
+Text Label 7950 3175 2    50   ~ 0
+A6
+Text Label 7950 2425 2    50   ~ 0
+A4
+Text Label 7950 2050 2    50   ~ 0
+A0
+Text Label 7950 1825 2    50   ~ 0
+CS#
+Text Label 7950 1900 2    50   ~ 0
+RAS#
 $EndSCHEMATC
