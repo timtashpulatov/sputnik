@@ -643,7 +643,7 @@ Text Label 7425 3675 0    50   ~ 0
 A1
 Text Label 5250 2050 2    50   ~ 0
 BA1
-Text Label 5250 2125 2    50   ~ 0
+Text Label 5250 2800 2    50   ~ 0
 WE#
 Text Label 5250 1975 2    50   ~ 0
 LDM
@@ -661,6 +661,6 @@ Text Label 7950 2050 2    50   ~ 0
 A0
 Text Label 7950 1825 2    50   ~ 0
 CS#
-Text Label 7950 1900 2    50   ~ 0
+Text Label 5250 2125 2    50   ~ 0
 RAS#
 $EndSCHEMATC
