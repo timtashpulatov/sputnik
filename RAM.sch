@@ -337,6 +337,349 @@ Text GLabel 4850 4725 0    60   Input ~ 0
 +1V8
 Text Label 7950 3100 2    50   ~ 0
 DQ15
+Text Label 2525 6500 0    60   ~ 0
+CLK_P
+Text Label 2525 6600 0    60   ~ 0
+CLK_N
+Text Label 5250 3025 2    47   ~ 0
+DQ14
+Text Label 5250 3550 2    50   ~ 0
+DQ9
+Text Label 5250 3475 2    50   ~ 0
+DQ12
+Text Label 5250 3250 2    50   ~ 0
+DQ11
+Text Label 5250 3175 2    50   ~ 0
+DQ6
+Text Label 5250 3100 2    50   ~ 0
+DQ1
+Text Label 5250 2950 2    50   ~ 0
+DQ4
+Text Label 5250 2725 2    50   ~ 0
+DQ3
+Text Label 7950 2350 2    50   ~ 0
+DQ8
+Text Label 7950 2275 2    50   ~ 0
+DQ13
+Text Label 7950 2125 2    50   ~ 0
+DQ7
+Text Label 7950 2650 2    50   ~ 0
+DQ0
+Text Label 7950 2575 2    50   ~ 0
+DQ5
+Text Label 7950 2800 2    50   ~ 0
+DQ2
+Text Label 5250 3700 2    50   ~ 0
+CKE
+Text Label 5250 3625 2    50   ~ 0
+BA0
+Text Label 5250 3325 2    50   ~ 0
+A10
+Text Label 5250 2875 2    50   ~ 0
+A3
+Text Label 5250 2650 2    50   ~ 0
+A7
+Text Label 5250 2425 2    50   ~ 0
+A12
+Text Label 7950 2200 2    50   ~ 0
+DQ10
+Text Label 7950 2725 2    50   ~ 0
+A8
+Text Label 7950 3250 2    50   ~ 0
+A11
+Text Label 5250 2350 2    50   ~ 0
+A9
+Text Label 7950 3325 2    50   ~ 0
+CLK_N
+Text Label 7950 3400 2    50   ~ 0
+CLK_P
+Text Label 7950 1975 2    50   ~ 0
+CAS#
+Text Label 10100 3625 0    50   ~ 0
+A2
+Text Label 5250 3400 2    50   ~ 0
+A5
+Text Label 7425 3675 0    50   ~ 0
+A1
+Text Label 5250 2050 2    50   ~ 0
+BA1
+Text Label 5250 2800 2    50   ~ 0
+WE#
+Text Label 5250 1975 2    50   ~ 0
+LDM
+Text Label 5250 1900 2    50   ~ 0
+UDM
+Text Label 7950 3625 2    50   ~ 0
+UDQS
+Text Label 7950 3550 2    50   ~ 0
+LDQS
+Text Label 7950 3175 2    50   ~ 0
+A6
+Text Label 7950 2425 2    50   ~ 0
+A4
+Text Label 7950 2050 2    50   ~ 0
+A0
+Text Label 7950 1825 2    50   ~ 0
+CS#
+Text Label 5250 2125 2    50   ~ 0
+RAS#
+$Comp
+L C_Small C73
+U 1 1 5883BA6D
+P 6950 5200
+F 0 "C73" H 6960 5270 50  0000 L CNN
+F 1 "0,1" H 6960 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6950 5200 25  0000 C CNN
+F 3 "" H 6950 5200 50  0000 C CNN
+	1    6950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C74
+U 1 1 5883BAF9
+P 7150 5200
+F 0 "C74" H 7160 5270 50  0000 L CNN
+F 1 "0,1" H 7160 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7150 5200 25  0000 C CNN
+F 3 "" H 7150 5200 50  0000 C CNN
+	1    7150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C75
+U 1 1 5883BBA5
+P 7350 5200
+F 0 "C75" H 7360 5270 50  0000 L CNN
+F 1 "0,1" H 7360 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7350 5200 25  0000 C CNN
+F 3 "" H 7350 5200 50  0000 C CNN
+	1    7350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C76
+U 1 1 5883BBAB
+P 7550 5200
+F 0 "C76" H 7560 5270 50  0000 L CNN
+F 1 "0,1" H 7560 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7550 5200 25  0000 C CNN
+F 3 "" H 7550 5200 50  0000 C CNN
+	1    7550 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 6875 4950 0    60   Input ~ 0
++1V8
+$Comp
+L GND #PWR132
+U 1 1 5883C563
+P 6950 5300
+F 0 "#PWR132" H 6950 5050 50  0001 C CNN
+F 1 "GND" H 6950 5150 50  0001 C CNN
+F 2 "" H 6950 5300 50  0000 C CNN
+F 3 "" H 6950 5300 50  0000 C CNN
+	1    6950 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C77
+U 1 1 5883D5CE
+P 7750 5200
+F 0 "C77" H 7760 5270 50  0000 L CNN
+F 1 "0,1" H 7760 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7750 5200 25  0000 C CNN
+F 3 "" H 7750 5200 50  0000 C CNN
+	1    7750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C78
+U 1 1 5883D5D4
+P 7950 5200
+F 0 "C78" H 7960 5270 50  0000 L CNN
+F 1 "0,1" H 7960 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 7950 5200 25  0000 C CNN
+F 3 "" H 7950 5200 50  0000 C CNN
+	1    7950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C79
+U 1 1 5883D5DA
+P 8150 5200
+F 0 "C79" H 8160 5270 50  0000 L CNN
+F 1 "0,1" H 8160 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8150 5200 25  0000 C CNN
+F 3 "" H 8150 5200 50  0000 C CNN
+	1    8150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C80
+U 1 1 5883E081
+P 8350 5200
+F 0 "C80" H 8360 5270 50  0000 L CNN
+F 1 "0,1" H 8360 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8350 5200 25  0000 C CNN
+F 3 "" H 8350 5200 50  0000 C CNN
+	1    8350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C81
+U 1 1 5883E087
+P 8550 5200
+F 0 "C81" H 8560 5270 50  0000 L CNN
+F 1 "0,1" H 8560 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8550 5200 25  0000 C CNN
+F 3 "" H 8550 5200 50  0000 C CNN
+	1    8550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C82
+U 1 1 5883E08D
+P 8750 5200
+F 0 "C82" H 8760 5270 50  0000 L CNN
+F 1 "0,1" H 8760 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8750 5200 25  0000 C CNN
+F 3 "" H 8750 5200 50  0000 C CNN
+	1    8750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C83
+U 1 1 5883E09D
+P 8950 5200
+F 0 "C83" H 8960 5270 50  0000 L CNN
+F 1 "0,1" H 8960 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 8950 5200 25  0000 C CNN
+F 3 "" H 8950 5200 50  0000 C CNN
+	1    8950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C84
+U 1 1 5883E0A3
+P 9150 5200
+F 0 "C84" H 9160 5270 50  0000 L CNN
+F 1 "0,1" H 9160 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9150 5200 25  0000 C CNN
+F 3 "" H 9150 5200 50  0000 C CNN
+	1    9150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C85
+U 1 1 5883E0A9
+P 9350 5200
+F 0 "C85" H 9360 5270 50  0000 L CNN
+F 1 "0,1" H 9360 5120 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9350 5200 25  0000 C CNN
+F 3 "" H 9350 5200 50  0000 C CNN
+	1    9350 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C86
+U 1 1 5883E9EC
+P 6950 5775
+F 0 "C86" H 6960 5845 50  0000 L CNN
+F 1 "0,1" H 6960 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 6950 5775 25  0000 C CNN
+F 3 "" H 6950 5775 50  0000 C CNN
+	1    6950 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C87
+U 1 1 5883EA80
+P 7150 5775
+F 0 "C87" H 7160 5845 50  0000 L CNN
+F 1 "0,1" H 7160 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7150 5775 25  0000 C CNN
+F 3 "" H 7150 5775 50  0000 C CNN
+	1    7150 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C88
+U 1 1 5883EB24
+P 7350 5775
+F 0 "C88" H 7360 5845 50  0000 L CNN
+F 1 "0,1" H 7360 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7350 5775 25  0000 C CNN
+F 3 "" H 7350 5775 50  0000 C CNN
+	1    7350 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C89
+U 1 1 5883EB2A
+P 7550 5775
+F 0 "C89" H 7560 5845 50  0000 L CNN
+F 1 "0,1" H 7560 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7550 5775 25  0000 C CNN
+F 3 "" H 7550 5775 50  0000 C CNN
+	1    7550 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C90
+U 1 1 5883EC94
+P 7750 5775
+F 0 "C90" H 7760 5845 50  0000 L CNN
+F 1 "0,1" H 7760 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7750 5775 25  0000 C CNN
+F 3 "" H 7750 5775 50  0000 C CNN
+	1    7750 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C91
+U 1 1 5883EC9A
+P 7950 5775
+F 0 "C91" H 7960 5845 50  0000 L CNN
+F 1 "0,1" H 7960 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7950 5775 25  0000 C CNN
+F 3 "" H 7950 5775 50  0000 C CNN
+	1    7950 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C92
+U 1 1 5883ECA0
+P 8150 5775
+F 0 "C92" H 8160 5845 50  0000 L CNN
+F 1 "0,1" H 8160 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8150 5775 25  0000 C CNN
+F 3 "" H 8150 5775 50  0000 C CNN
+	1    8150 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C93
+U 1 1 5883ECA6
+P 8350 5775
+F 0 "C93" H 8360 5845 50  0000 L CNN
+F 1 "0,1" H 8360 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8350 5775 25  0000 C CNN
+F 3 "" H 8350 5775 50  0000 C CNN
+	1    8350 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR133
+U 1 1 5883EF35
+P 6950 5925
+F 0 "#PWR133" H 6950 5675 50  0001 C CNN
+F 1 "GND" H 6950 5775 50  0001 C CNN
+F 2 "" H 6950 5925 50  0000 C CNN
+F 3 "" H 6950 5925 50  0000 C CNN
+	1    6950 5925
+	1    0    0    -1  
+$EndComp
+Text GLabel 6875 5475 0    60   Input ~ 0
++1V8
 Wire Bus Line
 	1150 1250 1250 1250
 Wire Bus Line
@@ -577,272 +920,30 @@ Wire Wire Line
 	3100 6500 2525 6500
 Wire Wire Line
 	3100 6600 2525 6600
-Text Label 2525 6500 0    60   ~ 0
-CLK_P
-Text Label 2525 6600 0    60   ~ 0
-CLK_N
-Text Label 5250 3025 2    47   ~ 0
-DQ14
-Text Label 5250 3550 2    50   ~ 0
-DQ9
-Text Label 5250 3475 2    50   ~ 0
-DQ12
-Text Label 5250 3250 2    50   ~ 0
-DQ11
-Text Label 5250 3175 2    50   ~ 0
-DQ6
-Text Label 5250 3100 2    50   ~ 0
-DQ1
-Text Label 5250 2950 2    50   ~ 0
-DQ4
-Text Label 5250 2725 2    50   ~ 0
-DQ3
-Text Label 7950 2350 2    50   ~ 0
-DQ8
-Text Label 7950 2275 2    50   ~ 0
-DQ13
-Text Label 7950 2125 2    50   ~ 0
-DQ7
-Text Label 7950 2650 2    50   ~ 0
-DQ0
-Text Label 7950 2575 2    50   ~ 0
-DQ5
-Text Label 7950 2800 2    50   ~ 0
-DQ2
-Text Label 5250 3700 2    50   ~ 0
-CKE
-Text Label 5250 3625 2    50   ~ 0
-BA0
-Text Label 5250 3325 2    50   ~ 0
-A10
-Text Label 5250 2875 2    50   ~ 0
-A3
-Text Label 5250 2650 2    50   ~ 0
-A7
-Text Label 5250 2425 2    50   ~ 0
-A12
-Text Label 7950 2200 2    50   ~ 0
-DQ10
-Text Label 7950 2725 2    50   ~ 0
-A8
-Text Label 7950 3250 2    50   ~ 0
-A11
-Text Label 5250 2350 2    50   ~ 0
-A9
-Text Label 7950 3325 2    50   ~ 0
-CLK_N
-Text Label 7950 3400 2    50   ~ 0
-CLK_P
-Text Label 7950 1975 2    50   ~ 0
-CAS#
-Text Label 10100 3625 0    50   ~ 0
-A2
-Text Label 5250 3400 2    50   ~ 0
-A5
-Text Label 7425 3675 0    50   ~ 0
-A1
-Text Label 5250 2050 2    50   ~ 0
-BA1
-Text Label 5250 2800 2    50   ~ 0
-WE#
-Text Label 5250 1975 2    50   ~ 0
-LDM
-Text Label 5250 1900 2    50   ~ 0
-UDM
-Text Label 7950 3625 2    50   ~ 0
-UDQS
-Text Label 7950 3550 2    50   ~ 0
-LDQS
-Text Label 7950 3175 2    50   ~ 0
-A6
-Text Label 7950 2425 2    50   ~ 0
-A4
-Text Label 7950 2050 2    50   ~ 0
-A0
-Text Label 7950 1825 2    50   ~ 0
-CS#
-Text Label 5250 2125 2    50   ~ 0
-RAS#
-$Comp
-L C_Small C73
-U 1 1 5883BA6D
-P 6950 5200
-F 0 "C73" H 6960 5270 50  0000 L CNN
-F 1 "0,1" H 6960 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6950 5200 25  0000 C CNN
-F 3 "" H 6950 5200 50  0000 C CNN
-	1    6950 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C74
-U 1 1 5883BAF9
-P 7150 5200
-F 0 "C74" H 7160 5270 50  0000 L CNN
-F 1 "0,1" H 7160 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7150 5200 25  0000 C CNN
-F 3 "" H 7150 5200 50  0000 C CNN
-	1    7150 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C75
-U 1 1 5883BBA5
-P 7350 5200
-F 0 "C75" H 7360 5270 50  0000 L CNN
-F 1 "0,1" H 7360 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7350 5200 25  0000 C CNN
-F 3 "" H 7350 5200 50  0000 C CNN
-	1    7350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C76
-U 1 1 5883BBAB
-P 7550 5200
-F 0 "C76" H 7560 5270 50  0000 L CNN
-F 1 "0,1" H 7560 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7550 5200 25  0000 C CNN
-F 3 "" H 7550 5200 50  0000 C CNN
-	1    7550 5200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 5300 9350 5300
 Wire Wire Line
 	6950 5100 9350 5100
-Text GLabel 6875 4950 0    60   Input ~ 0
-+1V8
 Wire Wire Line
 	6875 4950 6950 4950
 Wire Wire Line
 	6950 4950 6950 5100
 Connection ~ 6950 5100
-$Comp
-L GND #PWR132
-U 1 1 5883C563
-P 6950 5300
-F 0 "#PWR132" H 6950 5050 50  0001 C CNN
-F 1 "GND" H 6950 5150 50  0001 C CNN
-F 2 "" H 6950 5300 50  0000 C CNN
-F 3 "" H 6950 5300 50  0000 C CNN
-	1    6950 5300
-	1    0    0    -1  
-$EndComp
 Connection ~ 6950 5300
 Connection ~ 7150 5100
 Connection ~ 7350 5100
 Connection ~ 7350 5300
 Connection ~ 7150 5300
-$Comp
-L C_Small C77
-U 1 1 5883D5CE
-P 7750 5200
-F 0 "C77" H 7760 5270 50  0000 L CNN
-F 1 "0,1" H 7760 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7750 5200 25  0000 C CNN
-F 3 "" H 7750 5200 50  0000 C CNN
-	1    7750 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C78
-U 1 1 5883D5D4
-P 7950 5200
-F 0 "C78" H 7960 5270 50  0000 L CNN
-F 1 "0,1" H 7960 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7950 5200 25  0000 C CNN
-F 3 "" H 7950 5200 50  0000 C CNN
-	1    7950 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C79
-U 1 1 5883D5DA
-P 8150 5200
-F 0 "C79" H 8160 5270 50  0000 L CNN
-F 1 "0,1" H 8160 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8150 5200 25  0000 C CNN
-F 3 "" H 8150 5200 50  0000 C CNN
-	1    8150 5200
-	1    0    0    -1  
-$EndComp
 Connection ~ 7750 5100
 Connection ~ 7950 5100
 Connection ~ 7950 5300
 Connection ~ 7750 5300
 Connection ~ 7550 5100
 Connection ~ 7550 5300
-$Comp
-L C_Small C80
-U 1 1 5883E081
-P 8350 5200
-F 0 "C80" H 8360 5270 50  0000 L CNN
-F 1 "0,1" H 8360 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8350 5200 25  0000 C CNN
-F 3 "" H 8350 5200 50  0000 C CNN
-	1    8350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C81
-U 1 1 5883E087
-P 8550 5200
-F 0 "C81" H 8560 5270 50  0000 L CNN
-F 1 "0,1" H 8560 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8550 5200 25  0000 C CNN
-F 3 "" H 8550 5200 50  0000 C CNN
-	1    8550 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C82
-U 1 1 5883E08D
-P 8750 5200
-F 0 "C82" H 8760 5270 50  0000 L CNN
-F 1 "0,1" H 8760 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8750 5200 25  0000 C CNN
-F 3 "" H 8750 5200 50  0000 C CNN
-	1    8750 5200
-	1    0    0    -1  
-$EndComp
 Connection ~ 8350 5100
 Connection ~ 8550 5100
 Connection ~ 8550 5300
 Connection ~ 8350 5300
-$Comp
-L C_Small C83
-U 1 1 5883E09D
-P 8950 5200
-F 0 "C83" H 8960 5270 50  0000 L CNN
-F 1 "0,1" H 8960 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 8950 5200 25  0000 C CNN
-F 3 "" H 8950 5200 50  0000 C CNN
-	1    8950 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C84
-U 1 1 5883E0A3
-P 9150 5200
-F 0 "C84" H 9160 5270 50  0000 L CNN
-F 1 "0,1" H 9160 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9150 5200 25  0000 C CNN
-F 3 "" H 9150 5200 50  0000 C CNN
-	1    9150 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C85
-U 1 1 5883E0A9
-P 9350 5200
-F 0 "C85" H 9360 5270 50  0000 L CNN
-F 1 "0,1" H 9360 5120 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9350 5200 25  0000 C CNN
-F 3 "" H 9350 5200 50  0000 C CNN
-	1    9350 5200
-	1    0    0    -1  
-$EndComp
 Connection ~ 8950 5100
 Connection ~ 9150 5100
 Connection ~ 9150 5300
@@ -851,129 +952,124 @@ Connection ~ 8750 5100
 Connection ~ 8750 5300
 Connection ~ 8150 5100
 Connection ~ 8150 5300
-$Comp
-L C_Small C86
-U 1 1 5883E9EC
-P 6950 5725
-F 0 "C86" H 6960 5795 50  0000 L CNN
-F 1 "0,1" H 6960 5645 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 6950 5725 25  0000 C CNN
-F 3 "" H 6950 5725 50  0000 C CNN
-	1    6950 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C87
-U 1 1 5883EA80
-P 7150 5725
-F 0 "C87" H 7160 5795 50  0000 L CNN
-F 1 "0,1" H 7160 5645 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 7150 5725 25  0000 C CNN
-F 3 "" H 7150 5725 50  0000 C CNN
-	1    7150 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C88
-U 1 1 5883EB24
-P 7350 5725
-F 0 "C88" H 7360 5795 50  0000 L CNN
-F 1 "0,1" H 7360 5645 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 7350 5725 25  0000 C CNN
-F 3 "" H 7350 5725 50  0000 C CNN
-	1    7350 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C89
-U 1 1 5883EB2A
-P 7550 5725
-F 0 "C89" H 7560 5795 50  0000 L CNN
-F 1 "0,1" H 7560 5645 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 7550 5725 25  0000 C CNN
-F 3 "" H 7550 5725 50  0000 C CNN
-	1    7550 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C90
-U 1 1 5883EC94
-P 7750 5725
-F 0 "C90" H 7760 5795 50  0000 L CNN
-F 1 "0,1" H 7760 5645 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 7750 5725 25  0000 C CNN
-F 3 "" H 7750 5725 50  0000 C CNN
-	1    7750 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C91
-U 1 1 5883EC9A
-P 7950 5725
-F 0 "C91" H 7960 5795 50  0000 L CNN
-F 1 "0,1" H 7960 5645 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 7950 5725 25  0000 C CNN
-F 3 "" H 7950 5725 50  0000 C CNN
-	1    7950 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C92
-U 1 1 5883ECA0
-P 8150 5725
-F 0 "C92" H 8160 5795 50  0000 L CNN
-F 1 "0,1" H 8160 5645 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 8150 5725 25  0000 C CNN
-F 3 "" H 8150 5725 50  0000 C CNN
-	1    8150 5725
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C93
-U 1 1 5883ECA6
-P 8350 5725
-F 0 "C93" H 8360 5795 50  0000 L CNN
-F 1 "0,1" H 8360 5645 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0402" H 8350 5725 25  0000 C CNN
-F 3 "" H 8350 5725 50  0000 C CNN
-	1    8350 5725
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6950 5625 8350 5625
+	6950 5625 9150 5625
 Wire Wire Line
-	6950 5825 8350 5825
+	6950 5925 9150 5925
 Connection ~ 7150 5625
 Connection ~ 7350 5625
 Connection ~ 7550 5625
-Connection ~ 7550 5825
-Connection ~ 7350 5825
-Connection ~ 7150 5825
+Connection ~ 7550 5925
+Connection ~ 7350 5925
+Connection ~ 7150 5925
 Connection ~ 7750 5625
 Connection ~ 7950 5625
 Connection ~ 8150 5625
 Connection ~ 8350 5625
-Connection ~ 8350 5825
-Connection ~ 8150 5825
-Connection ~ 7950 5825
-Connection ~ 7750 5825
+Connection ~ 8350 5925
+Connection ~ 8150 5925
+Connection ~ 7950 5925
+Connection ~ 7750 5925
 Connection ~ 6950 5625
-Connection ~ 6950 5825
-$Comp
-L GND #PWR133
-U 1 1 5883EF35
-P 6950 5825
-F 0 "#PWR133" H 6950 5575 50  0001 C CNN
-F 1 "GND" H 6950 5675 50  0001 C CNN
-F 2 "" H 6950 5825 50  0000 C CNN
-F 3 "" H 6950 5825 50  0000 C CNN
-	1    6950 5825
-	1    0    0    -1  
-$EndComp
-Text GLabel 6875 5475 0    60   Input ~ 0
-+1V8
+Connection ~ 6950 5925
 Wire Wire Line
 	6875 5475 6950 5475
 Wire Wire Line
-	6950 5475 6950 5625
+	6950 5475 6950 5675
+Wire Wire Line
+	7150 5675 7150 5625
+Wire Wire Line
+	6950 5875 6950 5925
+Wire Wire Line
+	7150 5875 7150 5925
+Wire Wire Line
+	7350 5675 7350 5625
+Wire Wire Line
+	7550 5675 7550 5625
+Wire Wire Line
+	7750 5675 7750 5625
+Wire Wire Line
+	7950 5675 7950 5625
+Wire Wire Line
+	8150 5675 8150 5625
+Wire Wire Line
+	8350 5625 8350 5675
+Wire Wire Line
+	7350 5875 7350 5925
+Wire Wire Line
+	7550 5875 7550 5925
+Wire Wire Line
+	7750 5875 7750 5925
+Wire Wire Line
+	7950 5875 7950 5925
+Wire Wire Line
+	8150 5875 8150 5925
+Wire Wire Line
+	8350 5925 8350 5875
+$Comp
+L C_Small C?
+U 1 1 5884E5C8
+P 8550 5775
+F 0 "C?" H 8560 5845 50  0000 L CNN
+F 1 "0,1" H 8560 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8550 5775 25  0000 C CNN
+F 3 "" H 8550 5775 50  0000 C CNN
+	1    8550 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5884E5CE
+P 8750 5775
+F 0 "C?" H 8760 5845 50  0000 L CNN
+F 1 "0,1" H 8760 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8750 5775 25  0000 C CNN
+F 3 "" H 8750 5775 50  0000 C CNN
+	1    8750 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5884E5D4
+P 8950 5775
+F 0 "C?" H 8960 5845 50  0000 L CNN
+F 1 "0,1" H 8960 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 8950 5775 25  0000 C CNN
+F 3 "" H 8950 5775 50  0000 C CNN
+	1    8950 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5884E5DA
+P 9150 5775
+F 0 "C?" H 9160 5845 50  0000 L CNN
+F 1 "0,1" H 9160 5695 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 9150 5775 25  0000 C CNN
+F 3 "" H 9150 5775 50  0000 C CNN
+	1    9150 5775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 5625 9150 5675
+Wire Wire Line
+	9150 5925 9150 5875
+Wire Wire Line
+	8550 5675 8550 5625
+Connection ~ 8550 5625
+Wire Wire Line
+	8750 5675 8750 5625
+Connection ~ 8750 5625
+Wire Wire Line
+	8950 5675 8950 5625
+Connection ~ 8950 5625
+Wire Wire Line
+	8950 5875 8950 5925
+Connection ~ 8950 5925
+Wire Wire Line
+	8750 5875 8750 5925
+Connection ~ 8750 5925
+Wire Wire Line
+	8550 5875 8550 5925
+Connection ~ 8550 5925
 $EndSCHEMATC
