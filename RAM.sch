@@ -383,10 +383,8 @@ Text Label 3950 1350 2    50   ~ 0
 A12
 Text Label 6625 1175 2    50   ~ 0
 DQ10
-Text Label 6625 1700 2    50   ~ 0
-A8
 Text Label 6625 2225 2    50   ~ 0
-A11
+A8
 Text Label 3950 1275 2    50   ~ 0
 A9
 Text Label 6625 800  2    50   ~ 0
@@ -1122,4 +1120,6 @@ Wire Wire Line
 	9350 5300 9350 5250
 Wire Wire Line
 	9350 5000 9350 5050
+Text Label 6625 1700 2    50   ~ 0
+A11
 $EndSCHEMATC
