@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -268,5 +268,11 @@ F6 "USB_RD" I L 11325 3075 60
 F7 "USB_CS" I L 11325 3150 60 
 F8 "USB_DACK" B L 11325 3225 60 
 F9 "USB_DREQ" B L 11325 3300 60 
+$EndSheet
+$Sheet
+S 11300 6225 1950 900 
+U 588C9C43
+F0 "Power" 60
+F1 "power.sch" 60
 $EndSheet
 $EndSCHEMATC

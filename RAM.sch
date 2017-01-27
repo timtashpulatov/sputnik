@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -129,8 +129,6 @@ Text Label 1400 4500 0    60   ~ 0
 BA0
 Text Label 1400 4600 0    60   ~ 0
 BA1
-Text Label 2850 7000 2    60   ~ 0
-ODT
 Text Label 4775 5025 2    60   ~ 0
 VREF
 Entry Wire Line
@@ -253,7 +251,7 @@ U 7 1 5882971C
 P 7825 1950
 F 0 "IC1" H 7025 3200 60  0000 C CNN
 F 1 "EP4CE10F17" H 7825 1950 60  0000 C CNN
-F 2 "256FBGA" H 7825 3525 60  0001 C CNN
+F 2 "lib:BGA-256-NSMD" H 7825 3525 60  0001 C CNN
 F 3 "" H 5725 -100 60  0000 C CNN
 F 4 "EP4CE10F17" H 8175 3100 60  0000 C CNN "Component Value"
 	7    7825 1950
@@ -323,17 +321,17 @@ BA0
 Text Label 2925 5900 0    60   ~ 0
 BA1
 $Comp
-L GND #PWR131
+L GND #PWR134
 U 1 1 5882F59D
 P 6275 7300
-F 0 "#PWR131" H 6275 7050 50  0001 C CNN
+F 0 "#PWR134" H 6275 7050 50  0001 C CNN
 F 1 "GND" H 6275 7150 50  0001 C CNN
 F 2 "" H 6275 7300 50  0000 C CNN
 F 3 "" H 6275 7300 50  0000 C CNN
 	1    6275 7300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4850 4725 0    60   Input ~ 0
+Text GLabel 4850 4725 0    60   Input ~ 12
 +1V8
 Text Label 6625 2075 2    50   ~ 0
 DQ15
@@ -465,7 +463,7 @@ F 3 "" H 7550 5150 50  0000 C CNN
 	1    7550 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 6875 4850 0    60   Input ~ 0
+Text GLabel 6875 4850 0    60   Input ~ 12
 +1V8
 $Comp
 L GND #PWR132
@@ -676,7 +674,7 @@ F 3 "" H 6950 5925 50  0000 C CNN
 	1    6950 5925
 	1    0    0    -1  
 $EndComp
-Text GLabel 6875 5475 0    60   Input ~ 0
+Text GLabel 6875 5475 0    60   Input ~ 12
 +1V8
 $Comp
 L C_Small C94
@@ -957,8 +955,6 @@ Connection ~ 4925 5625
 Wire Wire Line
 	5000 5025 4550 5025
 Wire Wire Line
-	3100 7000 2675 7000
-Wire Wire Line
 	3100 6500 2525 6500
 Wire Wire Line
 	3100 6600 2525 6600
@@ -1176,10 +1172,10 @@ Wire Wire Line
 Connection ~ 7800 4500
 Connection ~ 6950 4850
 $Comp
-L GND #PWR134
+L GND #PWR131
 U 1 1 588A8459
 P 7800 4800
-F 0 "#PWR134" H 7800 4550 50  0001 C CNN
+F 0 "#PWR131" H 7800 4550 50  0001 C CNN
 F 1 "GND" H 7800 4650 50  0001 C CNN
 F 2 "" H 7800 4800 50  0000 C CNN
 F 3 "" H 7800 4800 50  0000 C CNN
@@ -1188,4 +1184,7 @@ F 3 "" H 7800 4800 50  0000 C CNN
 $EndComp
 Text Notes 6450 3550 0    60   ~ 0
 Operating current: 245 mA max (Operating Bank Interleave Read Current)
+NoConn ~ 2700 2950
+NoConn ~ 2700 1650
+NoConn ~ 3100 7000
 $EndSCHEMATC
