@@ -1,4 +1,4 @@
-update=27/01/2017 12:35:05
+update=27/01/2017 14:34:26
 version=1
 last_client=kicad
 [cvpcb]
@@ -35,7 +35,7 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-LibDir=
+LibDir=lib/footprints
 [eeschema/libraries]
 LibName1=lib/sputnik
 LibName2=power
