@@ -813,4 +813,8 @@ D 4 x 4 Register Files 3 State Out
 K TTL Register 3State
 $ENDCMP
 #
+$CMP TLV62569P
+D 2A Synchronous Buck Converter, SOT23-5
+$ENDCMP
+#
 #End Doc Library
