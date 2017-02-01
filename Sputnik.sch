@@ -99,34 +99,6 @@ F41 "IORST#" O R 10600 5250 60
 F42 "nDTACK_OUT" O L 4600 3850 60 
 F43 "ETHSD[0..15]" B R 10600 4350 60 
 $EndSheet
-Wire Bus Line
-	4600 1550 3100 1550
-Wire Bus Line
-	3100 1700 4600 1700
-Wire Bus Line
-	3100 1850 4600 1850
-Wire Bus Line
-	3100 1950 4600 1950
-Wire Wire Line
-	3100 1075 4600 1075
-Wire Wire Line
-	4600 1150 3100 1150
-Wire Wire Line
-	3100 1225 4600 1225
-Wire Wire Line
-	3100 1300 4600 1300
-Wire Wire Line
-	4600 1375 3100 1375
-Wire Wire Line
-	3100 2225 4600 2225
-Wire Wire Line
-	4600 2300 3100 2300
-Wire Wire Line
-	4600 2375 3100 2375
-Wire Wire Line
-	3100 2450 4600 2450
-Wire Bus Line
-	4600 2050 3100 2050
 Text Notes 5200 4525 0    50   ~ 0
 6.1.3 Open Collector Signals\nMany of the bus signals are shared via open collector or open drain outputs rather than via\ntri-stated signals; this is of course required for some asynchronous things like the shared interrupt\nlines, and it works well for other types of signals as well. Of course, a backplane resistor pulls\nthese lines high, PICs only drive the line low.\n\n/OWN /DTACK /HLT /BGACK\n/RESET /CINH /INT 2 /BERR /INT 6
 $Sheet
@@ -171,6 +143,76 @@ F35 "nBUSMASTER" I R 3100 5450 60
 F36 "nDTACK_OUT" I R 3100 3850 60 
 F37 "nDTACK" O R 3100 3925 60 
 $EndSheet
+$Sheet
+S 11300 4250 1950 1700
+U 57F77ED3
+F0 "ethernet" 60
+F1 "Ethernet.sch" 60
+F2 "CMD" I L 11300 4800 60 
+F3 "INT" O L 11300 4950 60 
+F4 "IOR#" I L 11300 5025 60 
+F5 "IOW#" I L 11300 5100 60 
+F6 "CS#" I L 11300 5175 60 
+F7 "PWRST#" I L 11300 5250 60 
+F8 "ETHSD[0..15]" B L 11300 4350 60 
+$EndSheet
+$Sheet
+S 11300 850  1625 1575
+U 57FAA395
+F0 "RAM" 60
+F1 "RAM.sch" 60
+F2 "DQ[0..15]" B L 11300 1025 60 
+F3 "A[0..14]" B L 11300 1125 60 
+F4 "CKE" I L 11300 1425 60 
+F5 "CS#" I L 11300 1500 60 
+F6 "RAS#" I L 11300 1575 60 
+F7 "CAS#" I L 11300 1650 60 
+F8 "WE#" I L 11300 1725 60 
+F9 "UDM" I L 11300 1800 60 
+F10 "LDM" I L 11300 1875 60 
+F11 "LDQS" I L 11300 1950 60 
+F12 "LDQS#" I L 11300 2025 60 
+$EndSheet
+$Sheet
+S 11325 2675 1600 1225
+U 587F5FE1
+F0 "usb" 60
+F1 "usb.sch" 60
+$EndSheet
+$Sheet
+S 11300 6225 1950 900 
+U 588C9C43
+F0 "Power" 60
+F1 "power.sch" 60
+$EndSheet
+Wire Bus Line
+	4600 1550 3100 1550
+Wire Bus Line
+	3100 1700 4600 1700
+Wire Bus Line
+	3100 1850 4600 1850
+Wire Bus Line
+	3100 1950 4600 1950
+Wire Wire Line
+	3100 1075 4600 1075
+Wire Wire Line
+	4600 1150 3100 1150
+Wire Wire Line
+	3100 1225 4600 1225
+Wire Wire Line
+	3100 1300 4600 1300
+Wire Wire Line
+	4600 1375 3100 1375
+Wire Wire Line
+	3100 2225 4600 2225
+Wire Wire Line
+	4600 2300 3100 2300
+Wire Wire Line
+	4600 2375 3100 2375
+Wire Wire Line
+	3100 2450 4600 2450
+Wire Bus Line
+	4600 2050 3100 2050
 Wire Wire Line
 	4600 3925 3100 3925
 Wire Wire Line
@@ -199,19 +241,6 @@ Wire Wire Line
 	3100 4650 4600 4650
 Wire Wire Line
 	4600 4725 3100 4725
-$Sheet
-S 11300 4250 1950 1700
-U 57F77ED3
-F0 "ethernet" 60
-F1 "Ethernet.sch" 60
-F2 "CMD" I L 11300 4800 60 
-F3 "INT" O L 11300 4950 60 
-F4 "IOR#" I L 11300 5025 60 
-F5 "IOW#" I L 11300 5100 60 
-F6 "CS#" I L 11300 5175 60 
-F7 "PWRST#" I L 11300 5250 60 
-F8 "ETHSD[0..15]" B L 11300 4350 60 
-$EndSheet
 Wire Wire Line
 	3100 2525 4600 2525
 Wire Wire Line
@@ -220,23 +249,6 @@ Wire Wire Line
 	3100 3475 4600 3475
 Wire Wire Line
 	4600 3700 3100 3700
-$Sheet
-S 11300 850  1625 1575
-U 57FAA395
-F0 "RAM" 60
-F1 "RAM.sch" 60
-F2 "DQ[0..15]" B L 11300 1025 60 
-F3 "A[0..14]" B L 11300 1125 60 
-F4 "CKE" I L 11300 1425 60 
-F5 "CS#" I L 11300 1500 60 
-F6 "RAS#" I L 11300 1575 60 
-F7 "CAS#" I L 11300 1650 60 
-F8 "WE#" I L 11300 1725 60 
-F9 "UDM" I L 11300 1800 60 
-F10 "LDM" I L 11300 1875 60 
-F11 "LDQS" I L 11300 1950 60 
-F12 "LDQS#" I L 11300 2025 60 
-$EndSheet
 Wire Wire Line
 	3100 3375 4600 3375
 Wire Wire Line
@@ -255,24 +267,4 @@ Wire Wire Line
 	3100 3850 4600 3850
 Wire Bus Line
 	10600 4350 11300 4350
-$Sheet
-S 11325 2675 1600 1225
-U 587F5FE1
-F0 "usb" 60
-F1 "usb.sch" 60
-F2 "USBAD[0:15]" B L 11325 2775 60 
-F3 "USBA[0:7]" B L 11325 2850 60 
-F4 "USB_INT" O L 11325 2925 60 
-F5 "USB_WR" I L 11325 3000 60 
-F6 "USB_RD" I L 11325 3075 60 
-F7 "USB_CS" I L 11325 3150 60 
-F8 "USB_DACK" B L 11325 3225 60 
-F9 "USB_DREQ" B L 11325 3300 60 
-$EndSheet
-$Sheet
-S 11300 6225 1950 900 
-U 588C9C43
-F0 "Power" 60
-F1 "power.sch" 60
-$EndSheet
 $EndSCHEMATC
