@@ -727,10 +727,6 @@ F 3 "" H 15775 2175 50  0000 C CNN
 	1    15775 2175
 	1    0    0    -1  
 $EndComp
-Text Notes 1000 9725 0    60   ~ 0
-Bank 8 pins for x16\n\nC8 DQS5T/CQ5T#\nD8 DQ5T\nE8 DQ5T\nA7 DQ5T\nB7 DQ5T\nA6 DQS3T/CQ3T#\nB6 DQ5T\nE7 DQ5T\nE6 DQ5T\nA5 DQ5T\nB5 DQ5T\nA4 DM5T/BWS#5T\nB3 DQS1T/CQ1T#,DPCLK7
-Text Notes 1000 8150 0    60   ~ 0
-Bank 7 pins for x16\n\nD14 DQ5T\nD12 DQS0T/CQ1T,DPCLK6\nB13 DQ5T\nA12 DQ5T\nB12 DQ5T\nA11 DQ5T\nB11 DQ5T\nF9 DQS2T/CQ3T\nA10 DQ5T\nB10 DQ5T\nC9 DQ5T\nD9 DM5T/BWS#5T\nE9 DQS4T/CQ5T
 Text HLabel 7050 8925 0    50   Input ~ 0
 nSLAVEn_IN
 Text HLabel 15225 6150 2    60   Output ~ 0
@@ -1325,8 +1321,6 @@ Text GLabel 7050 8775 0    39   Input ~ 0
 ETHSD11
 Text GLabel 7050 8700 0    39   Input ~ 0
 ETHSD13
-Text GLabel 7050 8325 0    39   Input ~ 0
-ETHSD15
 Text GLabel 7050 7500 0    39   Input ~ 0
 ETHSD10
 Text GLabel 7050 7875 0    39   Input ~ 0
@@ -1349,6 +1343,8 @@ Text GLabel 7050 5450 0    39   Input ~ 0
 ETHSD6
 Text GLabel 7050 5375 0    39   Input ~ 0
 ETHSD5
-Text GLabel 7050 5300 0    39   Input ~ 0
+Text GLabel 7050 8325 0    39   Input ~ 0
 ETHSD4
+Text GLabel 7050 5300 0    39   Input ~ 0
+ETHSD15
 $EndSCHEMATC
