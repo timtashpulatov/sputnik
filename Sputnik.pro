@@ -1,4 +1,4 @@
-update=Mon 06 Feb 2017 12:08:00 AM MSK
+update=Mon 06 Feb 2017 11:16:46 PM MSK
 version=1
 last_client=kicad
 [cvpcb]
