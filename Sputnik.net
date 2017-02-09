@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tnt23/git/sputnik/Sputnik.sch)
-    (date "Thu 09 Feb 2017 10:30:26 PM MSK")
+    (date "Thu 09 Feb 2017 10:38:09 PM MSK")
     (tool "Eeschema 4.0.5-e0-6337~52~ubuntu16.10.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -640,6 +640,7 @@
       (tstamp 580BA833))
     (comp (ref C50)
       (value 220x16)
+      (footprint Capacitors_Tantalum_SMD:CP_Tantalum_Case-B_EIA-3528-21_Reflow)
       (libsource (lib device) (part CP1))
       (sheetpath (names /ethernet/) (tstamps /57F77ED3/))
       (tstamp 580BB135))
