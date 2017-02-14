@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Sputnik-rescue
 LIBS:sputnik
 LIBS:power
 LIBS:device
@@ -33,7 +34,7 @@ LIBS:Stream
 LIBS:ep4ce10f17
 LIBS:Winbond
 LIBS:Sputnik-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -331,9 +332,11 @@ $EndComp
 Text Label 5225 1850 2    60   ~ 0
 VBUS
 $Comp
-L USB_A P1
+L USB_A-RESCUE-Sputnik P1
 U 1 1 588FD24C
 P 10500 3750
+AR Path="/588FD24C" Ref="P1"  Part="1" 
+AR Path="/587F5FE1/588FD24C" Ref="P1"  Part="1" 
 F 0 "P1" H 10700 3550 50  0000 C CNN
 F 1 "USB_A" H 10450 3950 50  0000 C CNN
 F 2 "Connectors:USB_A" V 10675 3750 25  0000 C CNN
