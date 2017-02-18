@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/tnt23/git/sputnik/Sputnik.sch)
-    (date "Sat 18 Feb 2017 09:17:07 PM MSK")
+    (date "Sat 18 Feb 2017 11:24:55 PM MSK")
     (tool "Eeschema 4.0.5-e0-6337~52~ubuntu16.10.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -253,6 +253,7 @@
       (tstamp 588362E2))
     (comp (ref Y3)
       (value Crystal_GND24)
+      (footprint zorro:GEYER_KXO_V97)
       (libsource (lib device) (part Crystal_GND24))
       (sheetpath (names /fpga/) (tstamps /58078329/))
       (tstamp 58A88BAD))
@@ -2400,6 +2401,8 @@
         (pin (num 99) (name GND) (type input))
         (pin (num 100) (name GND) (type input)))))
   (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical sputnik)
       (uri /home/tnt23/git/sputnik/lib/sputnik.lib))
     (library (logical Stream)
@@ -2408,8 +2411,6 @@
       (uri /home/tnt23/git/sputnik/lib/Winbond.lib))
     (library (logical Sputnik-cache)
       (uri /home/tnt23/git/sputnik/Sputnik-cache.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
     (library (logical ep4ce10f17)
       (uri /home/tnt23/git/sputnik/lib/ep4ce10f17.lib)))
   (nets
