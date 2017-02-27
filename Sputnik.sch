@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Sputnik-rescue
 LIBS:sputnik
 LIBS:power
 LIBS:device
@@ -34,7 +33,7 @@ LIBS:Stream
 LIBS:ep4ce10f17
 LIBS:Winbond
 LIBS:Sputnik-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
