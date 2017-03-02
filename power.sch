@@ -888,4 +888,17 @@ F 4 "Value" H 6650 6650 60  0001 C CNN "Fieldname"
 	1    6650 6650
 	1    0    0    -1  
 $EndComp
+$Comp
+L +5VDC #PWR?
+U 1 1 58B88EE1
+P 3575 6200
+F 0 "#PWR?" H 3675 6250 20  0001 C CNN
+F 1 "+5VDC" H 3575 6290 30  0000 C CNN
+F 2 "" H 3575 6200 60  0000 C CNN
+F 3 "" H 3575 6200 60  0000 C CNN
+	1    3575 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 6200 3575 6250
 $EndSCHEMATC
